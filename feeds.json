@@ -1,0 +1,33 @@
+{
+  "tier_a": {
+    "Google AI Blog": "https://blog.google/technology/ai/rss/",
+    "DeepMind Blog": "https://deepmind.google/blog/rss.xml",
+    "NVIDIA Blog": "https://blogs.nvidia.com/feed/",
+    "NVIDIA News": "https://nvidianews.nvidia.com/rss/all.rss",
+    "Microsoft AI": "https://blogs.microsoft.com/ai/feed/",
+    "Hugging Face": "https://huggingface.co/blog/feed.xml",
+    "arXiv CS.AI": "https://arxiv.org/rss/cs.AI",
+    "arXiv CS.LG": "https://arxiv.org/rss/cs.LG"
+  },
+  "tier_b": {
+    "OpenAI News": "https://openai.com/news/rss.xml",
+    "Anthropic": "https://www.anthropic.com/rss.xml",
+    "Meta AI": "https://ai.meta.com/blog/rss/",
+    "Mistral": "https://mistral.ai/news/rss.xml",
+    "Cohere": "https://cohere.com/blog/rss.xml",
+    "Perplexity": "https://www.perplexity.ai/changelog/rss.xml",
+    "MIT Tech Review": "https://www.technologyreview.com/feed/"
+  },
+  "tier_c": {
+    "HN - xAI Grok": "https://hn.algolia.com/api/v1/search?query=xai+grok&tags=story&numericFilters=created_at_i>",
+    "HN - DeepSeek": "https://hn.algolia.com/api/v1/search?query=deepseek&tags=story&numericFilters=created_at_i>",
+    "HN - Qwen/Alibaba": "https://hn.algolia.com/api/v1/search?query=qwen+alibaba&tags=story&numericFilters=created_at_i>",
+    "HN - Perplexity": "https://hn.algolia.com/api/v1/search?query=perplexity+ai&tags=story&numericFilters=created_at_i>",
+    "HN - Mistral": "https://hn.algolia.com/api/v1/search?query=mistral+ai&tags=story&numericFilters=created_at_i>"
+  },
+  "tier_d": {
+    "HN Frontpage": "https://hnrss.org/frontpage",
+    "The Verge - AI": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "VentureBeat - AI": "https://venturebeat.com/category/ai/feed/"
+  }
+}
