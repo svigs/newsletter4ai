@@ -19,15 +19,25 @@ def fetch_rss_feed(url, source_name):
     """Fetch and parse a single RSS feed"""
     articles = []
     try:
+        # Set user agent to avoid being blocked
+        feedparser.USER_AGENT = 'Mozilla/5.0 (compatible; NewsBot/1.0)'
         feed = feedparser.parse(url)
         
+        print(f"  [{source_name}] Status: {feed.get('status', 'unknown')}, Entries: {len(feed.entries)}")
+        
         if feed.bozo:
-            print(f"⚠️  Warning parsing {source_name}: {feed.bozo_exception}")
+            print(f"    ⚠️  Parsing warning: {str(feed.bozo_exception)[:80]}")
+        
+        if not feed.entries:
+            print(f"    ❌ No entries found in feed")
+            return []
         
         entry_count = 0
-        for entry in feed.entries[:10]:  # Limit to 10 per feed
+        for idx, entry in enumerate(feed.entries[:10]):
             link = entry.get('link', '')
             title = entry.get('title', '')
+            
+            print(f"    Entry {idx+1}: title='{title[:50]}...', link={'✓' if link else '✗'}")
             
             # Only create article if we have both title and URL
             if link and title:
@@ -42,9 +52,9 @@ def fetch_rss_feed(url, source_name):
                 articles.append(article)
                 entry_count += 1
         
-        print(f"  ✓ {source_name}: {entry_count} articles (from {len(feed.entries)} entries)")
+        print(f"  ✓ {source_name}: {entry_count}/{len(feed.entries)} valid articles")
     except Exception as e:
-        print(f"  ✗ {source_name}: {str(e)[:100]}")
+        print(f"  ✗ {source_name}: ERROR - {str(e)[:100]}")
     
     return articles
 
@@ -60,8 +70,11 @@ def fetch_hn_algolia(query, source_name, hours=24):
         response.raise_for_status()
         data = response.json()
         
+        hits = data.get('hits', [])
+        print(f"  [{source_name}] Got {len(hits)} hits")
+        
         hit_count = 0
-        for hit in data.get('hits', [])[:10]:
+        for hit in hits[:10]:
             title = hit.get('title', '')
             url_hit = hit.get('url', '')
             
@@ -81,9 +94,9 @@ def fetch_hn_algolia(query, source_name, hours=24):
                 articles.append(article)
                 hit_count += 1
         
-        print(f"  ✓ {source_name}: {hit_count} articles")
+        print(f"  ✓ {source_name}: {hit_count} valid articles")
     except Exception as e:
-        print(f"  ✗ {source_name}: {str(e)[:100]}")
+        print(f"  ✗ {source_name}: ERROR - {str(e)[:100]}")
     
     return articles
 
@@ -131,21 +144,21 @@ def main():
         time.sleep(0.5)  # Be nice to servers
     
     # Fetch Tier B feeds
-    print("📡 Fetching Tier B feeds...")
+    print("\n📡 Fetching Tier B feeds...")
     for source, url in feeds_config['tier_b'].items():
         articles = fetch_rss_feed(url, source)
         all_articles.extend(articles)
         time.sleep(0.5)
     
     # Fetch Tier D feeds
-    print("📡 Fetching Tier D feeds...")
+    print("\n📡 Fetching Tier D feeds...")
     for source, url in feeds_config['tier_d'].items():
         articles = fetch_rss_feed(url, source)
         all_articles.extend(articles)
         time.sleep(0.5)
     
     # Fetch Tier C (HN Algolia) - manual queries
-    print("📡 Fetching Tier C (HN Algolia)...")
+    print("\n📡 Fetching Tier C (HN Algolia)...")
     hn_queries = {
         "xAI Grok": "xai+grok",
         "DeepSeek": "deepseek",
@@ -160,10 +173,10 @@ def main():
         time.sleep(0.5)
     
     # Post-processing
-    print(f"\n✅ Total articles collected: {len(all_articles)}")
+    print(f"\n📊 Total articles collected: {len(all_articles)}")
     
     all_articles = deduplicate_articles(all_articles)
-    print(f"✅ After deduplication: {len(all_articles)} unique articles")
+    print(f"📊 After deduplication: {len(all_articles)} unique articles")
     
     all_articles = assign_tiers(all_articles, feeds_config)
     
