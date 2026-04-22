@@ -1,3 +1,32 @@
+name: Fetch AI News
+
+on:
+  schedule:
+    # 8 AM Ljubljana time (6 AM UTC)
+    - cron: '0 6 * * *'
+    # 8 PM Ljubljana time (6 PM UTC)
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests
+
+      - name: Fetch AI news
+        run: python collector.py
+
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.NEWSLETTER_TOKEN }}
@@ -5,4 +34,7 @@
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add latest.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update AI news feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')" && git push)
+          if ! git diff --quiet HEAD; then
+            git commit -m "Update AI news feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/svigs/newsletter4ai.git HEAD:master
+          fi
