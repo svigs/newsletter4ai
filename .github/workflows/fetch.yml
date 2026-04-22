@@ -1,8 +1,5 @@
 name: Fetch AI News
 
-permissions:
-  contents: write  # Allows writing to the repository
-
 on:
   schedule:
     # 8 AM Ljubljana time (6 AM UTC)
