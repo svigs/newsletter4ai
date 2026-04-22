@@ -19,6 +19,9 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,14 +42,14 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add latest.json
-          # Check if there are changes to avoid empty commit errors
-          git diff-index --quiet HEAD || git commit -m "Update latest.json"
-          
-          # Pull remote changes and put your new commit on top
-          git pull --rebase origin master
-          
-          if ! git diff --quiet HEAD; then
-            git commit -m "Update AI news feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-            git push https://x-access-token:${GITHUB_TOKEN}@github.com/svigs/newsletter4ai.git HEAD:master
+          if git diff --quiet -- latest.json; then
+            echo "No changes to latest.json"
+            exit 0
           fi
+
+          git add latest.json
+          git commit -m "Update AI news feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+
+          # Rebase onto the latest remote master in case another run pushed first.
+          git pull --rebase origin master
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/svigs/newsletter4ai.git HEAD:master
