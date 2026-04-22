@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-22T22:29:11.026688Z",
+  "fetched_at": "2026-04-22T23:05:33.274703Z",
   "article_count": 99,
   "articles": [
     {
@@ -83,19 +83,19 @@
       "tier": "a"
     },
     {
-      "title": "Workspace agents",
-      "url": "https://openai.com/academy/workspace-agents",
-      "source": "OpenAI News",
-      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
-      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-      "tier": "a"
-    },
-    {
       "title": "Speeding up agentic workflows with WebSockets in the Responses API",
       "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
       "source": "OpenAI News",
       "published": "Wed, 22 Apr 2026 10:00:00 GMT",
       "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "tier": "a"
+    },
+    {
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "source": "OpenAI News",
+      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
+      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
       "tier": "a"
     },
     {
@@ -624,7 +624,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T21:12:24",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Need advice: Back end engineer \u2192 infrastructure: how do you make the transition?",
@@ -632,7 +632,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T18:04:01",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Show HN: Callmux \u2013 MCP multiplexer that cuts tool call context pollution by ~19x",
@@ -640,7 +640,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T17:50:02",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Ask HN: In your job with all the AI go-go/execution velocity \u2013 are you lonely?",
@@ -648,7 +648,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T16:32:54",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "AI failure could trigger the next financial crisis, warns Elizabeth Warren",
@@ -672,7 +672,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T14:05:10",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Watch Sony\u2019s elite ping-pong robot beat top-ranked players",
@@ -688,7 +688,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T13:36:32",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Ant Group Unveils Ling-2.6-Flash",
@@ -696,7 +696,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T13:00:23",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Anthropic&#8217;s Mythos rollout has missed America\u2019s cybersecurity agency",
@@ -728,7 +728,7 @@
       "source": "HN - Mistral",
       "published": "2026-04-22T08:50:04",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Show HN: LibreThinker, free AI assistant for LibreOffice Writer, 10k installs",
@@ -736,7 +736,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T08:22:16",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Mistral Vibe",
@@ -744,7 +744,7 @@
       "source": "HN - Mistral",
       "published": "2026-04-22T06:21:48",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Anthropic\u2019s most dangerous AI model just fell into the wrong hands",
@@ -760,7 +760,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T03:07:49",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "Show HN: MemFactory: Unified Inference and Training Framework for Agent Memory",
@@ -768,7 +768,7 @@
       "source": "HN - xAI Grok",
       "published": "2026-04-22T02:26:05",
       "summary": "",
-      "tier": "unknown"
+      "tier": "c"
     },
     {
       "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
