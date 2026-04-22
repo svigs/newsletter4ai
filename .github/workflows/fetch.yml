@@ -1,28 +1,8 @@
-name: Fetch AI News
-
-on:
-  schedule:
-    # 8 AM Ljubljana time (6 AM UTC)
-    - cron: '0 6 * * *'
-    # 8 PM Ljubljana time (6 PM UTC)
-    - cron: '0 18 * * *'
-  workflow_dispatch:
-
-jobs:
-  fetch:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.NEWSLETTER_TOKEN }}
         run: |
-          python -m pip install --upgrade pip
-          pip install feedparser requests
-
-      - name: Fetch AI news
-        run: python collector.py
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add latest.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update AI news feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')" && git push)
