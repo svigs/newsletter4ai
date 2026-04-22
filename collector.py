@@ -157,17 +157,9 @@ def main():
         all_articles.extend(articles)
         time.sleep(0.5)
     
-    # Fetch Tier C (HN Algolia) - manual queries
+    # Fetch Tier C (HN Algolia) from feeds.json
     print("\n📡 Fetching Tier C (HN Algolia)...")
-    hn_queries = {
-        "xAI Grok": "xai+grok",
-        "DeepSeek": "deepseek",
-        "Qwen/Alibaba": "qwen+alibaba",
-        "Perplexity": "perplexity+ai",
-        "Mistral": "mistral+ai"
-    }
-    for query_name, query in hn_queries.items():
-        source = f"HN - {query_name}"
+    for source, query in feeds_config.get('tier_c', {}).items():
         articles = fetch_hn_algolia(query, source, hours=24)
         all_articles.extend(articles)
         time.sleep(0.5)

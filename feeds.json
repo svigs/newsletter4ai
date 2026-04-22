@@ -18,6 +18,13 @@
     "The Verge - AI": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
     "VentureBeat - AI": "https://venturebeat.com/category/ai/feed/"
   },
+  "tier_c": {
+    "HN - xAI Grok": "xai+grok",
+    "HN - DeepSeek": "deepseek",
+    "HN - Qwen/Alibaba": "qwen+alibaba",
+    "HN - Perplexity": "perplexity+ai",
+    "HN - Mistral": "mistral+ai"
+  },
   "tier_d": {
   }
 }
