@@ -8,7 +8,6 @@ import json
 import feedparser
 import requests
 from datetime import datetime, timedelta
-from urllib.parse import urlparse
 import time
 
 def load_feeds_config():
@@ -30,7 +29,7 @@ def fetch_rss_feed(url, source_name):
                 'title': entry.get('title', 'No title'),
                 'url': entry.get('link', ''),
                 'source': source_name,
-                'published': entry.get('published', ''),
+                'published': entry.get('published', entry.get('updated', '')),
                 'summary': entry.get('summary', '')[:200] if entry.get('summary') else '',
                 'tier': 'unknown'
             }
@@ -85,9 +84,16 @@ def assign_tiers(articles, feeds_config):
     """Assign tier information based on source"""
     tier_map = {}
     
-    for tier_name, sources in feeds_config.items():
-        for source in sources.keys():
-            tier_map[source] = tier_name.replace('tier_', '')
+    # Build tier map from feeds.json structure
+    for tier_key, tier_data in feeds_config.items():
+        tier_letter = tier_key.replace('tier_', '')
+        if isinstance(tier_data, dict):
+            if 'feeds' in tier_data:
+                for source in tier_data['feeds'].keys():
+                    tier_map[source] = tier_letter
+            if 'queries' in tier_data:
+                for query_name in tier_data['queries'].keys():
+                    tier_map[f"HN - {query_name}"] = tier_letter
     
     for article in articles:
         article['tier'] = tier_map.get(article['source'], 'unknown')
@@ -103,37 +109,35 @@ def main():
     
     # Fetch Tier A feeds (most reliable)
     print("\n📡 Fetching Tier A feeds...")
-    for source, url in feeds_config['tier_a'].items():
+    for source, url in feeds_config['tier_a']['feeds'].items():
         articles = fetch_rss_feed(url, source)
         all_articles.extend(articles)
+        print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)  # Be nice to servers
     
     # Fetch Tier B feeds
     print("📡 Fetching Tier B feeds...")
-    for source, url in feeds_config['tier_b'].items():
+    for source, url in feeds_config['tier_b']['feeds'].items():
         articles = fetch_rss_feed(url, source)
         all_articles.extend(articles)
+        print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)
     
     # Fetch Tier C (HN Algolia)
     print("📡 Fetching Tier C (HN Algolia)...")
-    hn_queries = {
-        "HN - xAI Grok": "xai+grok",
-        "HN - DeepSeek": "deepseek",
-        "HN - Qwen/Alibaba": "qwen+alibaba",
-        "HN - Perplexity": "perplexity+ai",
-        "HN - Mistral": "mistral+ai"
-    }
-    for source, query in hn_queries.items():
+    for query_name, query in feeds_config['tier_c']['queries'].items():
+        source = f"HN - {query_name}"
         articles = fetch_hn_algolia(query, source, hours=24)
         all_articles.extend(articles)
+        print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)
     
     # Fetch Tier D feeds
     print("📡 Fetching Tier D feeds...")
-    for source, url in feeds_config['tier_d'].items():
+    for source, url in feeds_config['tier_d']['feeds'].items():
         articles = fetch_rss_feed(url, source)
         all_articles.extend(articles)
+        print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)
     
     # Post-processing
@@ -144,7 +148,7 @@ def main():
     
     all_articles = assign_tiers(all_articles, feeds_config)
     
-    # Sort by published date (newest first)
+    # Sort by published date (newest first), handling missing dates
     all_articles.sort(key=lambda x: x.get('published', ''), reverse=True)
     
     # Prepare output
