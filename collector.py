@@ -88,12 +88,8 @@ def assign_tiers(articles, feeds_config):
     for tier_key, tier_data in feeds_config.items():
         tier_letter = tier_key.replace('tier_', '')
         if isinstance(tier_data, dict):
-            if 'feeds' in tier_data:
-                for source in tier_data['feeds'].keys():
-                    tier_map[source] = tier_letter
-            if 'queries' in tier_data:
-                for query_name in tier_data['queries'].keys():
-                    tier_map[f"HN - {query_name}"] = tier_letter
+            for source in tier_data.keys():
+                tier_map[source] = tier_letter
     
     for article in articles:
         article['tier'] = tier_map.get(article['source'], 'unknown')
@@ -109,7 +105,7 @@ def main():
     
     # Fetch Tier A feeds (most reliable)
     print("\n📡 Fetching Tier A feeds...")
-    for source, url in feeds_config['tier_a']['feeds'].items():
+    for source, url in feeds_config['tier_a'].items():
         articles = fetch_rss_feed(url, source)
         all_articles.extend(articles)
         print(f"  ✓ {source}: {len(articles)} articles")
@@ -117,25 +113,32 @@ def main():
     
     # Fetch Tier B feeds
     print("📡 Fetching Tier B feeds...")
-    for source, url in feeds_config['tier_b']['feeds'].items():
+    for source, url in feeds_config['tier_b'].items():
         articles = fetch_rss_feed(url, source)
-        all_articles.extend(articles)
-        print(f"  ✓ {source}: {len(articles)} articles")
-        time.sleep(0.5)
-    
-    # Fetch Tier C (HN Algolia)
-    print("📡 Fetching Tier C (HN Algolia)...")
-    for query_name, query in feeds_config['tier_c']['queries'].items():
-        source = f"HN - {query_name}"
-        articles = fetch_hn_algolia(query, source, hours=24)
         all_articles.extend(articles)
         print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)
     
     # Fetch Tier D feeds
     print("📡 Fetching Tier D feeds...")
-    for source, url in feeds_config['tier_d']['feeds'].items():
+    for source, url in feeds_config['tier_d'].items():
         articles = fetch_rss_feed(url, source)
+        all_articles.extend(articles)
+        print(f"  ✓ {source}: {len(articles)} articles")
+        time.sleep(0.5)
+    
+    # Fetch Tier C (HN Algolia) - manual queries
+    print("📡 Fetching Tier C (HN Algolia)...")
+    hn_queries = {
+        "xAI Grok": "xai+grok",
+        "DeepSeek": "deepseek",
+        "Qwen/Alibaba": "qwen+alibaba",
+        "Perplexity": "perplexity+ai",
+        "Mistral": "mistral+ai"
+    }
+    for query_name, query in hn_queries.items():
+        source = f"HN - {query_name}"
+        articles = fetch_hn_algolia(query, source, hours=24)
         all_articles.extend(articles)
         print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)
