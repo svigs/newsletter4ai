@@ -18,13 +18,6 @@
     "Perplexity": "https://www.perplexity.ai/changelog/rss.xml",
     "MIT Tech Review": "https://www.technologyreview.com/feed/"
   },
-  "tier_c": {
-    "HN - xAI Grok": "https://hn.algolia.com/api/v1/search?query=xai+grok&tags=story&numericFilters=created_at_i>",
-    "HN - DeepSeek": "https://hn.algolia.com/api/v1/search?query=deepseek&tags=story&numericFilters=created_at_i>",
-    "HN - Qwen/Alibaba": "https://hn.algolia.com/api/v1/search?query=qwen+alibaba&tags=story&numericFilters=created_at_i>",
-    "HN - Perplexity": "https://hn.algolia.com/api/v1/search?query=perplexity+ai&tags=story&numericFilters=created_at_i>",
-    "HN - Mistral": "https://hn.algolia.com/api/v1/search?query=mistral+ai&tags=story&numericFilters=created_at_i>"
-  },
   "tier_d": {
     "HN Frontpage": "https://hnrss.org/frontpage",
     "The Verge - AI": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
