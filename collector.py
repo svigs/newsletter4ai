@@ -24,19 +24,27 @@ def fetch_rss_feed(url, source_name):
         if feed.bozo:
             print(f"⚠️  Warning parsing {source_name}: {feed.bozo_exception}")
         
+        entry_count = 0
         for entry in feed.entries[:10]:  # Limit to 10 per feed
-            article = {
-                'title': entry.get('title', 'No title'),
-                'url': entry.get('link', ''),
-                'source': source_name,
-                'published': entry.get('published', entry.get('updated', '')),
-                'summary': entry.get('summary', '')[:200] if entry.get('summary') else '',
-                'tier': 'unknown'
-            }
-            if article['url']:  # Only add if has URL
+            link = entry.get('link', '')
+            title = entry.get('title', '')
+            
+            # Only create article if we have both title and URL
+            if link and title:
+                article = {
+                    'title': title,
+                    'url': link,
+                    'source': source_name,
+                    'published': entry.get('published', entry.get('updated', '')),
+                    'summary': entry.get('summary', '')[:200] if entry.get('summary') else '',
+                    'tier': 'unknown'
+                }
                 articles.append(article)
+                entry_count += 1
+        
+        print(f"  ✓ {source_name}: {entry_count} articles (from {len(feed.entries)} entries)")
     except Exception as e:
-        print(f"❌ Error fetching {source_name}: {e}")
+        print(f"  ✗ {source_name}: {str(e)[:100]}")
     
     return articles
 
@@ -52,18 +60,30 @@ def fetch_hn_algolia(query, source_name, hours=24):
         response.raise_for_status()
         data = response.json()
         
+        hit_count = 0
         for hit in data.get('hits', [])[:10]:
-            article = {
-                'title': hit.get('title', 'No title'),
-                'url': hit.get('url', f"https://news.ycombinator.com/item?id={hit.get('objectID')}"),
-                'source': source_name,
-                'published': datetime.fromtimestamp(hit.get('created_at_i', 0)).isoformat(),
-                'summary': '',
-                'tier': 'unknown'
-            }
-            articles.append(article)
+            title = hit.get('title', '')
+            url_hit = hit.get('url', '')
+            
+            # Use HN link if no external URL
+            if not url_hit:
+                url_hit = f"https://news.ycombinator.com/item?id={hit.get('objectID', '')}"
+            
+            if title and url_hit:
+                article = {
+                    'title': title,
+                    'url': url_hit,
+                    'source': source_name,
+                    'published': datetime.fromtimestamp(hit.get('created_at_i', 0)).isoformat() if hit.get('created_at_i') else '',
+                    'summary': '',
+                    'tier': 'unknown'
+                }
+                articles.append(article)
+                hit_count += 1
+        
+        print(f"  ✓ {source_name}: {hit_count} articles")
     except Exception as e:
-        print(f"❌ Error fetching {source_name}: {e}")
+        print(f"  ✗ {source_name}: {str(e)[:100]}")
     
     return articles
 
@@ -73,7 +93,7 @@ def deduplicate_articles(articles):
     unique = []
     
     for article in articles:
-        url = article.get('url', '').lower()
+        url = article.get('url', '').lower().strip()
         if url and url not in seen_urls:
             seen_urls.add(url)
             unique.append(article)
@@ -108,7 +128,6 @@ def main():
     for source, url in feeds_config['tier_a'].items():
         articles = fetch_rss_feed(url, source)
         all_articles.extend(articles)
-        print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)  # Be nice to servers
     
     # Fetch Tier B feeds
@@ -116,7 +135,6 @@ def main():
     for source, url in feeds_config['tier_b'].items():
         articles = fetch_rss_feed(url, source)
         all_articles.extend(articles)
-        print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)
     
     # Fetch Tier D feeds
@@ -124,7 +142,6 @@ def main():
     for source, url in feeds_config['tier_d'].items():
         articles = fetch_rss_feed(url, source)
         all_articles.extend(articles)
-        print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)
     
     # Fetch Tier C (HN Algolia) - manual queries
@@ -140,14 +157,13 @@ def main():
         source = f"HN - {query_name}"
         articles = fetch_hn_algolia(query, source, hours=24)
         all_articles.extend(articles)
-        print(f"  ✓ {source}: {len(articles)} articles")
         time.sleep(0.5)
     
     # Post-processing
-    print(f"\n✅ Fetched {len(all_articles)} articles before deduplication")
+    print(f"\n✅ Total articles collected: {len(all_articles)}")
     
     all_articles = deduplicate_articles(all_articles)
-    print(f"✅ {len(all_articles)} unique articles after deduplication")
+    print(f"✅ After deduplication: {len(all_articles)} unique articles")
     
     all_articles = assign_tiers(all_articles, feeds_config)
     
