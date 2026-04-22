@@ -40,6 +40,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NEWSLETTER_TOKEN }}
         run: |
+          set -e
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           if git diff --quiet -- latest.json; then
@@ -50,6 +51,17 @@ jobs:
           git add latest.json
           git commit -m "Update AI news feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
 
-          # Rebase onto the latest remote master in case another run pushed first.
-          git pull --rebase origin master
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/svigs/newsletter4ai.git HEAD:master
+          # Rebase onto the latest remote master, then retry once if another push lands first.
+          for attempt in 1 2; do
+            git pull --rebase origin master
+            if git push https://x-access-token:${GITHUB_TOKEN}@github.com/svigs/newsletter4ai.git HEAD:master; then
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 2 ]; then
+              echo "Push failed after retry"
+              exit 1
+            fi
+
+            echo "Push was rejected, rebasing on latest master and retrying"
+          done
