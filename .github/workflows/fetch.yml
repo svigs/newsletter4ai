@@ -26,10 +26,3 @@ jobs:
 
       - name: Fetch AI news
         run: python collector.py
-
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add latest.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update AI news feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')" && git push)
