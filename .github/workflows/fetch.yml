@@ -8,6 +8,10 @@ on:
     - cron: '0 18 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false # Set to true to kill old runs, false to let them finish in order
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
