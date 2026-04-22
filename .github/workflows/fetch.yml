@@ -7,6 +7,14 @@ on:
     # 8 PM Ljubljana time (6 PM UTC)
     - cron: '0 18 * * *'
   workflow_dispatch:
+  # Auto-run on edits to source/config. Path filter excludes latest.json
+  # so the bot's own commits do not loop.
+  push:
+    branches: [master]
+    paths:
+      - collector.py
+      - feeds.json
+      - .github/workflows/fetch.yml
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
