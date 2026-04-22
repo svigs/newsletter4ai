@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-22T23:05:33.274703Z",
+  "fetched_at": "2026-04-22T23:08:42.353284Z",
   "article_count": 99,
   "articles": [
     {
@@ -75,19 +75,19 @@
       "tier": "b"
     },
     {
-      "title": "Introducing workspace agents in ChatGPT",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-      "source": "OpenAI News",
-      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
-      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "tier": "a"
-    },
-    {
       "title": "Speeding up agentic workflows with WebSockets in the Responses API",
       "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
       "source": "OpenAI News",
       "published": "Wed, 22 Apr 2026 10:00:00 GMT",
       "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "tier": "a"
+    },
+    {
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "source": "OpenAI News",
+      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
+      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
       "tier": "a"
     },
     {
