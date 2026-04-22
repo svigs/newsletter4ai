@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-22T22:19:45.027347Z",
-  "article_count": 129,
+  "fetched_at": "2026-04-22T22:29:11.026688Z",
+  "article_count": 99,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -19,91 +19,19 @@
       "tier": "a"
     },
     {
-      "title": "The Neon King of New Orleans",
-      "url": "https://gardenandgun.com/new-orleans-neon-king",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 21:26:38 +0000",
-      "summary": "<p>Article URL: <a href=\"https://gardenandgun.com/new-orleans-neon-king\">https://gardenandgun.com/new-orleans-neon-king</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47869496\"",
-      "tier": "d"
-    },
-    {
-      "title": "Apple fixes bug that cops used to extract deleted chat messages from iPhones",
-      "url": "https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 20:27:31 +0000",
-      "summary": "<p>Article URL: <a href=\"https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/\">https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-us",
-      "tier": "d"
-    },
-    {
-      "title": "The Illuminated Man: an unconventional portrait of JG Ballard",
-      "url": "https://www.theguardian.com/books/2026/apr/20/the-illuminated-man-by-christopher-priest-and-nina-allan-review-an-unconventional-portrait-of-jg-ballard",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 20:24:05 +0000",
-      "summary": "<p>Article URL: <a href=\"https://www.theguardian.com/books/2026/apr/20/the-illuminated-man-by-christopher-priest-and-nina-allan-review-an-unconventional-portrait-of-jg-ballard\">https://www.theguardian",
-      "tier": "d"
-    },
-    {
-      "title": "Scores decline again for 13-year-old students in reading and mathematics",
-      "url": "https://www.nationsreportcard.gov/highlights/ltt/2023/",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 18:57:20 +0000",
-      "summary": "<p>Article URL: <a href=\"https://www.nationsreportcard.gov/highlights/ltt/2023/\">https://www.nationsreportcard.gov/highlights/ltt/2023/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/i",
-      "tier": "d"
-    },
-    {
-      "title": "Website streamed live directly from a model",
-      "url": "https://flipbook.page/",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 18:01:18 +0000",
-      "summary": "<p><a href=\"https://x.com/zan2434/status/2046982383430496444\" rel=\"nofollow\">https://x.com/zan2434/status/2046982383430496444</a> (<a href=\"https://xcancel.com/zan2434/status/2046982383430496444\" rel=",
-      "tier": "d"
-    },
-    {
-      "title": "Over-editing refers to a model modifying code beyond what is necessary",
-      "url": "https://nrehiew.github.io/blog/minimal_editing/",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 17:51:17 +0000",
-      "summary": "<p>Article URL: <a href=\"https://nrehiew.github.io/blog/minimal_editing/\">https://nrehiew.github.io/blog/minimal_editing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4786691",
-      "tier": "d"
-    },
-    {
-      "title": "Workspace Agents in ChatGPT",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 17:47:07 +0000",
-      "summary": "<p>Article URL: <a href=\"https://openai.com/index/introducing-workspace-agents-in-chatgpt/\">https://openai.com/index/introducing-workspace-agents-in-chatgpt/</a></p>\n<p>Comments URL: <a href=\"https://",
-      "tier": "d"
-    },
-    {
-      "title": "Parallel agents in Zed",
-      "url": "https://zed.dev/blog/parallel-agents",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 17:38:57 +0000",
-      "summary": "<p>Article URL: <a href=\"https://zed.dev/blog/parallel-agents\">https://zed.dev/blog/parallel-agents</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47866750\">https://news.ycombi",
-      "tier": "d"
-    },
-    {
-      "title": "We found a stable Firefox identifier linking all your private Tor identities",
-      "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 17:35:03 +0000",
-      "summary": "<p>Article URL: <a href=\"https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/\">https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/</a></p>\n<p>Comments URL: <",
-      "tier": "d"
-    },
-    {
-      "title": "Surveillance Pricing: Exploiting Information Asymmetries",
-      "url": "https://lpeproject.org/blog/surveillance-pricing-exploiting-information-asymmetries/",
-      "source": "HN Frontpage",
-      "published": "Wed, 22 Apr 2026 17:13:19 +0000",
-      "summary": "<p>Article URL: <a href=\"https://lpeproject.org/blog/surveillance-pricing-exploiting-information-asymmetries/\">https://lpeproject.org/blog/surveillance-pricing-exploiting-information-asymmetries/</a><",
-      "tier": "d"
-    },
-    {
       "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
       "url": "https://huggingface.co/blog/nvidia/gemma4",
       "source": "Hugging Face",
       "published": "Wed, 22 Apr 2026 15:40:50 GMT",
       "summary": "",
+      "tier": "b"
+    },
+    {
+      "title": "Making ChatGPT better for clinicians",
+      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "source": "OpenAI News",
+      "published": "Wed, 22 Apr 2026 15:00:00 GMT",
+      "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
       "tier": "a"
     },
     {
@@ -147,20 +75,20 @@
       "tier": "b"
     },
     {
-      "title": "Workspace agents",
-      "url": "https://openai.com/academy/workspace-agents",
-      "source": "OpenAI News",
-      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
-      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-      "tier": "b"
-    },
-    {
       "title": "Introducing workspace agents in ChatGPT",
       "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "source": "OpenAI News",
       "published": "Wed, 22 Apr 2026 10:00:00 GMT",
       "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "tier": "b"
+      "tier": "a"
+    },
+    {
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "source": "OpenAI News",
+      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
+      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "tier": "a"
     },
     {
       "title": "Speeding up agentic workflows with WebSockets in the Responses API",
@@ -168,7 +96,7 @@
       "source": "OpenAI News",
       "published": "Wed, 22 Apr 2026 10:00:00 GMT",
       "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "tier": "b"
+      "tier": "a"
     },
     {
       "title": "3 things Michelle Kim is into right now",
@@ -203,179 +131,11 @@
       "tier": "b"
     },
     {
-      "title": "Making ChatGPT better for clinicians",
-      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
-      "source": "OpenAI News",
-      "published": "Wed, 22 Apr 2026 00:00:00 GMT",
-      "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
-      "tier": "b"
-    },
-    {
       "title": "Introducing OpenAI Privacy Filter",
       "url": "https://openai.com/index/introducing-openai-privacy-filter",
       "source": "OpenAI News",
       "published": "Wed, 22 Apr 2026 00:00:00 GMT",
       "summary": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
-      "tier": "b"
-    },
-    {
-      "title": "On Solving the Multiple Variable Gapped Longest Common Subsequence Problem",
-      "url": "https://arxiv.org/abs/2604.18645",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18645v1 Announce Type: new \nAbstract: This paper addresses the Variable Gapped Longest Common Subsequence (VGLCS) problem, a generalization of the classical LCS problem involving flexible g",
-      "tier": "a"
-    },
-    {
-      "title": "Beyond One Output: Visualizing and Comparing Distributions of Language Model Generations",
-      "url": "https://arxiv.org/abs/2604.18724",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18724v1 Announce Type: new \nAbstract: Users typically interact with and evaluate language models via single outputs, but each output is just one sample from a broad distribution of possible",
-      "tier": "a"
-    },
-    {
-      "title": "ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System",
-      "url": "https://arxiv.org/abs/2604.18789",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18789v1 Announce Type: new \nAbstract: Reinforcement Learning from Human Feedback (RLHF) is central to aligning Large Language Models (LLMs), yet it introduces a critical vulnerability: an i",
-      "tier": "a"
-    },
-    {
-      "title": "AI scientists produce results without reasoning scientifically",
-      "url": "https://arxiv.org/abs/2604.18805",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18805v1 Announce Type: new \nAbstract: Large language model (LLM)-based systems are increasingly deployed to conduct scientific research autonomously, yet whether their reasoning adheres to ",
-      "tier": "a"
-    },
-    {
-      "title": "Quantum inspired qubit qutrit neural networks for real time financial forecasting",
-      "url": "https://arxiv.org/abs/2604.18838",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18838v1 Announce Type: new \nAbstract: This research investigates the performance and efficacy of machine learning models in stock prediction, comparing Artificial Neural Networks (ANNs), Qu",
-      "tier": "a"
-    },
-    {
-      "title": "Human-Guided Harm Recovery for Computer Use Agents",
-      "url": "https://arxiv.org/abs/2604.18847",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18847v1 Announce Type: new \nAbstract: As LM agents gain the ability to execute actions on real computer systems, we need ways to not only prevent harmful actions at scale but also effective",
-      "tier": "a"
-    },
-    {
-      "title": "From Natural Language to Executable Narsese: A Neuro-Symbolic Benchmark and Pipeline for Reasoning with NARS",
-      "url": "https://arxiv.org/abs/2604.18873",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18873v1 Announce Type: new \nAbstract: Large language models (LLMs) are highly capable at language generation, but they remain unreliable when reasoning requires explicit symbolic structure,",
-      "tier": "a"
-    },
-    {
-      "title": "How Adversarial Environments Mislead Agentic AI?",
-      "url": "https://arxiv.org/abs/2604.18874",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18874v1 Announce Type: new \nAbstract: Tool-integrated agents are deployed on the premise that external tools ground their outputs in reality. Yet this very reliance creates a critical attac",
-      "tier": "a"
-    },
-    {
-      "title": "Formally Verified Patent Analysis via Dependent Type Theory: Machine-Checkable Certificates from a Hybrid AI + Lean 4 Pipeline",
-      "url": "https://arxiv.org/abs/2604.18882",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18882v1 Announce Type: new \nAbstract: We present a formally verified framework for patent analysis as a hybrid AI + Lean 4 pipeline. The DAG-coverage core (Algorithm 1b) is fully machine-ve",
-      "tier": "a"
-    },
-    {
-      "title": "Error-free Training for MedMNIST Datasets",
-      "url": "https://arxiv.org/abs/2604.18916",
-      "source": "arXiv CS.AI",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18916v1 Announce Type: new \nAbstract: In this paper, we introduce a new concept called Artificial Special Intelligence by which Machine Learning models for the classification problem can be",
-      "tier": "a"
-    },
-    {
-      "title": "Compile to Compress: Boosting Formal Theorem Provers by Compiler Outputs",
-      "url": "https://arxiv.org/abs/2604.18587",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18587v1 Announce Type: new \nAbstract: Large language models (LLMs) have demonstrated significant potential in formal theorem proving, yet state-of-the-art performance often necessitates pro",
-      "tier": "a"
-    },
-    {
-      "title": "Easy Samples Are All You Need: Self-Evolving LLMs via Data-Efficient Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2604.18639",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18639v1 Announce Type: new \nAbstract: Previous LLMs-based RL studies typically follow either supervised learning with high annotation costs, or unsupervised paradigms using voting or entrop",
-      "tier": "a"
-    },
-    {
-      "title": "FASE : A Fairness-Aware Spatiotemporal Event Graph Framework for Predictive Policing",
-      "url": "https://arxiv.org/abs/2604.18644",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18644v1 Announce Type: new \nAbstract: Predictive policing systems that allocate patrol resources based solely on predicted crime risk can unintentionally amplify racial disparities through ",
-      "tier": "a"
-    },
-    {
-      "title": "Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training",
-      "url": "https://arxiv.org/abs/2604.18701",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18701v1 Announce Type: new \nAbstract: Local prediction-error-based curiosity rewards focus on the current transition without considering the world model's cumulative prediction error across",
-      "tier": "a"
-    },
-    {
-      "title": "The Cost of Relaxation: Evaluating the Error in Convex Neural Network Verification",
-      "url": "https://arxiv.org/abs/2604.18728",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18728v1 Announce Type: new \nAbstract: Many neural network (NN) verification systems represent the network's input-output relation as a constraint program. Sound and complete, representation",
-      "tier": "a"
-    },
-    {
-      "title": "Discrete Tilt Matching",
-      "url": "https://arxiv.org/abs/2604.18739",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18739v1 Announce Type: new \nAbstract: Masked diffusion large language models (dLLMs) are a promising alternative to autoregressive generation. While reinforcement learning (RL) methods have",
-      "tier": "a"
-    },
-    {
-      "title": "Beyond Coefficients: Forecast-Necessity Testing for Interpretable Causal Discovery in Nonlinear Time-Series Models",
-      "url": "https://arxiv.org/abs/2604.18751",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18751v1 Announce Type: new \nAbstract: Nonlinear machine-learning models are increasingly used to discover causal relationships in time-series data, yet the interpretation of their outputs r",
-      "tier": "a"
-    },
-    {
-      "title": "Handling and Interpreting Missing Modalities in Patient Clinical Trajectories via Autoregressive Sequence Modeling",
-      "url": "https://arxiv.org/abs/2604.18753",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18753v1 Announce Type: new \nAbstract: An active challenge in developing multimodal machine learning (ML) models for healthcare is handling missing modalities during training and deployment.",
-      "tier": "a"
-    },
-    {
-      "title": "Towards Understanding the Robustness of Sparse Autoencoders",
-      "url": "https://arxiv.org/abs/2604.18756",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18756v1 Announce Type: new \nAbstract: Large Language Models (LLMs) remain vulnerable to optimization-based jailbreak attacks that exploit internal gradient structure. While Sparse Autoencod",
-      "tier": "a"
-    },
-    {
-      "title": "Multi-Level Temporal Graph Networks with Local-Global Fusion for Industrial Fault Diagnosis",
-      "url": "https://arxiv.org/abs/2604.18765",
-      "source": "arXiv CS.LG",
-      "published": "Wed, 22 Apr 2026 00:00:00 -0400",
-      "summary": "arXiv:2604.18765v1 Announce Type: new \nAbstract: Fault detection and diagnosis are critical for the optimal and safe operation of industrial processes. The correlations among sensors often display non",
       "tier": "a"
     },
     {
@@ -416,7 +176,7 @@
       "source": "Hugging Face",
       "published": "Wed, 15 Apr 2026 12:07:25 GMT",
       "summary": "",
-      "tier": "a"
+      "tier": "b"
     },
     {
       "title": "Meet HoloTab by HCompany. Your AI browser companion.",
@@ -424,7 +184,7 @@
       "source": "Hugging Face",
       "published": "Wed, 15 Apr 2026 09:25:20 GMT",
       "summary": "",
-      "tier": "a"
+      "tier": "b"
     },
     {
       "title": "Online math tutoring service uses AI to help boost students\u2019 skills and confidence",
@@ -456,7 +216,7 @@
       "source": "VentureBeat - AI",
       "published": "Wed, 07 Jan 2026 20:00:00 GMT",
       "summary": "<p><a href=\"https://nousresearch.com/\">Nous Research</a>, the open-source artificial intelligence startup backed by crypto venture firm <a href=\"https://www.paradigm.xyz/\">Paradigm</a>, released a new",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "AI-Mimi is building inclusive TV experiences for Deaf and Hard of Hearing user in Japan",
@@ -536,7 +296,7 @@
       "source": "OpenAI News",
       "published": "Tue, 21 Apr 2026 12:00:00 GMT",
       "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
-      "tier": "b"
+      "tier": "a"
     },
     {
       "title": "QIMMA \u0642\u0650\u0645\u0651\u0629 \u26f0: A Quality-First Arabic LLM Leaderboard",
@@ -544,6 +304,14 @@
       "source": "Hugging Face",
       "published": "Tue, 21 Apr 2026 10:09:58 GMT",
       "summary": "",
+      "tier": "b"
+    },
+    {
+      "title": "Scaling Codex to enterprises worldwide",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "source": "OpenAI News",
+      "published": "Tue, 21 Apr 2026 00:00:00 GMT",
+      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
       "tier": "a"
     },
     {
@@ -552,14 +320,6 @@
       "source": "Hugging Face",
       "published": "Tue, 21 Apr 2026 00:00:00 GMT",
       "summary": "",
-      "tier": "a"
-    },
-    {
-      "title": "Scaling Codex to enterprises worldwide",
-      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
-      "source": "OpenAI News",
-      "published": "Tue, 21 Apr 2026 00:00:00 GMT",
-      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
       "tier": "b"
     },
     {
@@ -592,7 +352,7 @@
       "source": "VentureBeat - AI",
       "published": "Tue, 13 Jan 2026 13:00:00 GMT",
       "summary": "<p><a href=\"https://www.salesforce.com/\">Salesforce</a> on Tuesday launched an entirely rebuilt version of <a href=\"https://slack.com/help/articles/202026038-An-introduction-to-Slackbot\">Slackbot</a>,",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "A conversation with Kevin Scott: What\u2019s next in AI",
@@ -624,7 +384,7 @@
       "source": "VentureBeat - AI",
       "published": "Thu, 22 Jan 2026 14:00:00 GMT",
       "summary": "<p><a href=\"https://railway.com/\">Railway</a>, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it r",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "AI-equipped drones study dolphins on the edge of extinction",
@@ -664,7 +424,7 @@
       "source": "OpenAI News",
       "published": "Thu, 16 Apr 2026 10:00:00 GMT",
       "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
-      "tier": "b"
+      "tier": "a"
     },
     {
       "title": "Introducing GPT-Rosalind for life sciences research",
@@ -672,7 +432,7 @@
       "source": "OpenAI News",
       "published": "Thu, 16 Apr 2026 01:00:00 GMT",
       "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
-      "tier": "b"
+      "tier": "a"
     },
     {
       "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
@@ -680,7 +440,7 @@
       "source": "Hugging Face",
       "published": "Thu, 16 Apr 2026 00:00:00 GMT",
       "summary": "",
-      "tier": "a"
+      "tier": "b"
     },
     {
       "title": "The PR you would have opened yourself",
@@ -688,7 +448,7 @@
       "source": "Hugging Face",
       "published": "Thu, 16 Apr 2026 00:00:00 GMT",
       "summary": "",
-      "tier": "a"
+      "tier": "b"
     },
     {
       "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
@@ -696,7 +456,7 @@
       "source": "Hugging Face",
       "published": "Thu, 16 Apr 2026 00:00:00 GMT",
       "summary": "",
-      "tier": "a"
+      "tier": "b"
     },
     {
       "title": "Strength and Destiny Collide: \u2018Samson: A Tyndalston Story\u2019 Arrives in the Cloud",
@@ -712,7 +472,7 @@
       "source": "Hugging Face",
       "published": "Thu, 09 Apr 2026 00:00:00 GMT",
       "summary": "",
-      "tier": "a"
+      "tier": "b"
     },
     {
       "title": "Multimodal Embedding & Reranker Models with Sentence Transformers",
@@ -720,7 +480,7 @@
       "source": "Hugging Face",
       "published": "Thu, 09 Apr 2026 00:00:00 GMT",
       "summary": "",
-      "tier": "a"
+      "tier": "b"
     },
     {
       "title": "Microsoft open sources its \u2018farm of the future\u2019 toolkit",
@@ -792,7 +552,7 @@
       "source": "OpenAI News",
       "published": "Mon, 20 Apr 2026 00:00:00 GMT",
       "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
-      "tier": "b"
+      "tier": "a"
     },
     {
       "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
@@ -800,7 +560,7 @@
       "source": "VentureBeat - AI",
       "published": "Mon, 19 Jan 2026 14:00:00 GMT",
       "summary": "<p>The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive.</p><p><a href=\"https://claude.com/product/claude-code\">Claude Code</a>, Anthropic&#x27;s terminal-based AI age",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
@@ -816,7 +576,7 @@
       "source": "VentureBeat - AI",
       "published": "Mon, 12 Jan 2026 11:30:00 GMT",
       "summary": "<p><a href=\"https://www.anthropic.com/\">Anthropic</a> released <a href=\"https://claude.com/blog/cowork-research-preview\">Cowork</a> on Monday, a new AI agent capability that extends the power of its w",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "From games to biology and beyond: 10 years of AlphaGo\u2019s impact",
@@ -832,7 +592,7 @@
       "source": "VentureBeat - AI",
       "published": "Mon, 05 Jan 2026 07:45:00 GMT",
       "summary": "<p>When the creator of the world&#x27;s most advanced coding agent speaks, Silicon Valley doesn&#x27;t just listen \u2014 it takes notes.</p><p>For the past week, the engineering community has been dissect",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "7 ways to travel smarter this summer, with help from Google",
@@ -848,7 +608,7 @@
       "source": "VentureBeat - AI",
       "published": "Fri, 16 Jan 2026 14:01:00 GMT",
       "summary": "<p>Alfred Wahlforss was running out of options. His startup, <a href=\"https://listenlabs.ai/\">Listen Labs</a>, needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s <a href=\"",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "National Robotics Week \u2014 Latest Physical AI Research, Breakthroughs and Resources",
@@ -896,7 +656,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-22T16:29:05-04:00",
       "summary": "\"I know a bubble when I see one.\" That's what Sen. Elizabeth Warren (D-MA), who led the push to create a new consumer financial regulator in the wake of the 2008 recession, told a crowd at a Vanderbil",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "OpenAI now lets teams make custom bots that can do work on their own",
@@ -904,7 +664,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-22T16:09:02-04:00",
       "summary": "OpenAI is giving users of its Business, Enterprise, Edu, and Teachers plans access to cloud-based \"workspace\" agents available in ChatGPT that can perform business tasks. In its blog post, OpenAI give",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "Show HN: Stonks-CLI \u2013 track your investment portfolio from your terminal",
@@ -920,7 +680,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-22T13:43:38-04:00",
       "summary": "Humans have been building ping-pong playing robots for decades, such as Omron's FORPHEUS that challenged amateur competitors at CES 2017. What sets Ace apart from the rest is that the robot, which was",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "Show HN: We built a <60ms, open-source alternative to E2B using RustVMM and KVM",
@@ -944,7 +704,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-22T12:57:36-04:00",
       "summary": "Several US federal agencies are taking up Anthropic's new cybersecurity model to find vulnerabilities, but one is reportedly not getting in on the action: the nation's central cybersecurity coordinato",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "Google Meet will take AI notes for in-person meetings too",
@@ -952,7 +712,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-22T12:38:19-04:00",
       "summary": "Google's AI meeting notetaker is no longer limited to Google Meets - Gemini can also generate summaries and transcripts of in-person meetings now, as well as meetings on Zoom and Microsoft Teams, as f",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "Now Meta will track what employees do on their computers to train its AI agents",
@@ -960,7 +720,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-22T10:22:35-04:00",
       "summary": "Meta employees' activity at work is now being used to train the company's AI agents. As reported by Reuters, Meta is installing a tool it calls Model Capability Initiative (MCI) on US-based employees'",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "Mastra Code",
@@ -992,7 +752,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-22T05:18:40-04:00",
       "summary": "Anthropic's Mythos AI model, a powerful cybersecurity tool that the company said could be dangerous in the wrong hands, has been accessed by a \"small group of unauthorized users,\" Bloomberg reports. A",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "Ask HN: Why aren't companies with unlimited AI tokens not crushing it?",
@@ -1016,7 +776,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-21T18:45:37-04:00",
       "summary": "With an IPO looming for Elon Musk's SpaceX / xAI / X combo platter of companies, SpaceX has announced an odd arrangement to either acquire the automated programming platform Cursor for $60 billion or ",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "AI backlash is coming for elections",
@@ -1024,7 +784,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-21T15:00:05-04:00",
       "summary": "Ask Americans how they feel about AI and most say they have concerns. Communities have mounted resistance to data center projects, stalling them across the US. On social media, anger at AI companies a",
-      "tier": "d"
+      "tier": "b"
     },
     {
       "title": "OpenAI\u2019s updated image generator can now pull information from the web",
@@ -1032,7 +792,7 @@
       "source": "The Verge - AI",
       "published": "2026-04-21T15:00:00-04:00",
       "summary": "OpenAI is rolling out the latest version of its AI-powered image generator with new \"thinking capabilities,\" allowing it to search the web to help it create multiple images from a single prompt. On Tu",
-      "tier": "d"
+      "tier": "b"
     }
   ]
 }
