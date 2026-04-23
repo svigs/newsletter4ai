@@ -1,28 +1,50 @@
-# AI recap for April 22, 2026
+# AI recap for April 23, 2026
 
-0 articles across 0 sources in the latest sweep.
+93 articles across 12 sources in the latest sweep.
 
-_Generated: 2026-04-23T10:08:41.869263Z_
-_Source snapshot: 2026-04-22T00:00:00Z_
+_Generated: 2026-04-23T10:42:01.853392Z_
+_Source snapshot: 2026-04-23T10:42:01.514308Z_
 
 ## Overview
 
-This recap was built from 0 collected AI stories. The summaries below use a deterministic fallback because a Claude response was unavailable.
+This recap was built from 93 collected AI stories. The summaries below use a deterministic fallback because a Claude response was unavailable.
 
 ## Highlights
 
-### No articles collected
+### Protecting people from harmful manipulation
 
-The latest run did not return any stories.
+Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures.
+
+### Lyria 3 Pro: Create longer tracks in more
+
+Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces.
+
+### Gemma 4 VLA Demo on Jetson Orin Nano Super
+
+Tracked from Hugging Face in tier B.
+
+### Making ChatGPT better for clinicians
+
+OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.
+
+### From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet
+
+Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications protecting the planet.
 
 ## Watchlist
 
-- No active watchlist yet because no articles were collected.
+- DeepMind Blog: 10 items in this run.
+- Hugging Face: 10 items in this run.
+- OpenAI News: 10 items in this run.
+- NVIDIA Blog: 10 items in this run.
+- MIT Tech Review: 10 items in this run.
 
 ## Themes
 
-- No theme data yet because no articles were collected.
+- Tier A contributed 50 stories.
+- Tier B contributed 37 stories.
+- Tier C contributed 6 stories.
 
 ## Source Count
 
-- Articles collected: 0
+- Articles collected: 93

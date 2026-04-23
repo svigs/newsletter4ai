@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-23T08:04:09.546241Z",
-  "article_count": 95,
+  "fetched_at": "2026-04-23T10:42:01.514308Z",
+  "article_count": 93,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -75,6 +75,14 @@
       "tier": "b"
     },
     {
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "source": "OpenAI News",
+      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
+      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "tier": "a"
+    },
+    {
       "title": "Introducing workspace agents in ChatGPT",
       "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "source": "OpenAI News",
@@ -88,14 +96,6 @@
       "source": "OpenAI News",
       "published": "Wed, 22 Apr 2026 10:00:00 GMT",
       "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "tier": "a"
-    },
-    {
-      "title": "Workspace agents",
-      "url": "https://openai.com/academy/workspace-agents",
-      "source": "OpenAI News",
-      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
-      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
       "tier": "a"
     },
     {
@@ -267,14 +267,6 @@
       "tier": "b"
     },
     {
-      "title": "This tool could show how consciousness works",
-      "url": "https://www.technologyreview.com/2026/04/21/1134862/this-tool-could-show-how-consciousness-works/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 21 Apr 2026 21:00:00 +0000",
-      "summary": "How does the physical matter in our brains translate into thoughts, sensations, and emotions? It\u2019s hard to explore that question without neurosurgery. But in a recent paper, MIT philosopher Matthias M",
-      "tier": "b"
-    },
-    {
       "title": "Partnering with industry leaders to accelerate AI transformation",
       "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
       "source": "DeepMind Blog",
@@ -376,6 +368,22 @@
       "source": "DeepMind Blog",
       "published": "Thu, 26 Mar 2026 15:23:35 +0000",
       "summary": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.",
+      "tier": "a"
+    },
+    {
+      "title": "Will fusion power get cheap? Don\u2019t count on it.",
+      "url": "https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost/",
+      "source": "MIT Tech Review",
+      "published": "Thu, 23 Apr 2026 10:00:00 +0000",
+      "summary": "Fusion power could provide a steady, zero-emissions source of electricity in the future\u2014if companies can get plants built and running. But a new study suggests that even if that future arrives, it mig",
+      "tier": "b"
+    },
+    {
+      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+      "source": "Google AI Blog",
+      "published": "Thu, 23 Apr 2026 09:00:00 +0000",
+      "summary": "Aerial image of the data center",
       "tier": "a"
     },
     {
@@ -515,14 +523,6 @@
       "tier": "a"
     },
     {
-      "title": "Create, edit and share videos at no cost in Google Vids",
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
-      "source": "Google AI Blog",
-      "published": "Thu, 02 Apr 2026 16:00:00 +0000",
-      "summary": "Google Vids logo surrounded by various video editing UI",
-      "tier": "a"
-    },
-    {
       "title": "How data and AI will transform contact centres for financial services",
       "url": "https://cloudblogs.microsoft.com/industry-blog/en-gb/financial-services/2022/07/25/how-data-and-ai-will-transform-contact-centres-for-financial-services/",
       "source": "Microsoft AI",
@@ -619,6 +619,22 @@
       "tier": "a"
     },
     {
+      "title": "Structured planning, execution, and memory for LLM agents (ragbits 1.6)",
+      "url": "https://deepsense.ai/blog/task-planning-execution-visibility-and-persistent-memory-for-ai-agents-ragbits-1-6-release/",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-23T10:23:42",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "SpaceX and Cursor have explored a team-up with Mistral to take on AI rivals",
+      "url": "https://www.businessinsider.com/elon-musk-xai-explored-collaborating-with-mistral-cursor-2026-4",
+      "source": "HN - Mistral",
+      "published": "2026-04-23T08:52:03",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "Aisbf \u2013 AI Service Broker Framework (BETA) unified proxy and intelligent router",
       "url": "https://aisbf.cloud",
       "source": "HN - xAI Grok",
@@ -639,22 +655,6 @@
       "url": "https://news.ycombinator.com/item?id=47867083",
       "source": "HN - xAI Grok",
       "published": "2026-04-22T18:04:01",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Show HN: Callmux \u2013 MCP multiplexer that cuts tool call context pollution by ~19x",
-      "url": "https://github.com/edimuj/callmux",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T17:50:02",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Ask HN: In your job with all the AI go-go/execution velocity \u2013 are you lonely?",
-      "url": "https://news.ycombinator.com/item?id=47865907",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T16:32:54",
       "summary": "",
       "tier": "c"
     },
@@ -691,14 +691,6 @@
       "tier": "c"
     },
     {
-      "title": "Ant Group Unveils Ling-2.6-Flash",
-      "url": "https://www.businesswire.com/news/home/20260422256825/en/Ant-Group-Unveils-Ling-2.6-Flash-A-Major-Leap-in-AI-Efficiency",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T13:00:23",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "Anthropic&#8217;s Mythos rollout has missed America\u2019s cybersecurity agency",
       "url": "https://www.theverge.com/policy/916758/anthropic-mythos-preview-cisa-left-out",
       "source": "The Verge - AI",
@@ -721,14 +713,6 @@
       "published": "2026-04-22T10:22:35-04:00",
       "summary": "Meta employees' activity at work is now being used to train the company's AI agents. As reported by Reuters, Meta is installing a tool it calls Model Capability Initiative (MCI) on US-based employees'",
       "tier": "b"
-    },
-    {
-      "title": "Show HN: LibreThinker, free AI assistant for LibreOffice Writer, 10k installs",
-      "url": "https://librethinker.com/",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T08:22:16",
-      "summary": "",
-      "tier": "c"
     },
     {
       "title": "Anthropic\u2019s most dangerous AI model just fell into the wrong hands",
