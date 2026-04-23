@@ -14,6 +14,9 @@ on:
     paths:
       - collector.py
       - feeds.json
+      - generate_recap.py
+      - build_site.py
+      - requirements.txt
       - .github/workflows/fetch.yml
 
 concurrency:

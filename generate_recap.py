@@ -122,7 +122,12 @@ def request_claude_recap(latest: dict[str, Any], api_key: str, model: str) -> di
         },
         timeout=60,
     )
-    response.raise_for_status()
+    if response.status_code >= 400:
+        # Surface the actual Anthropic error body so we can diagnose 4xx failures.
+        raise RuntimeError(
+            f"Anthropic API returned HTTP {response.status_code}. "
+            f"Model: {model}. Response body: {response.text[:1500]}"
+        )
     payload = response.json()
     text_blocks = [
         block.get("text", "")
