@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-23T17:15:26.213523Z",
-  "article_count": 95,
+  "fetched_at": "2026-04-23T19:01:32.266085Z",
+  "article_count": 94,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -83,6 +83,14 @@
       "tier": "b"
     },
     {
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "source": "OpenAI News",
+      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
+      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "tier": "a"
+    },
+    {
       "title": "Introducing workspace agents in ChatGPT",
       "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "source": "OpenAI News",
@@ -96,14 +104,6 @@
       "source": "OpenAI News",
       "published": "Wed, 22 Apr 2026 10:00:00 GMT",
       "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "tier": "a"
-    },
-    {
-      "title": "Workspace agents",
-      "url": "https://openai.com/academy/workspace-agents",
-      "source": "OpenAI News",
-      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
-      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
       "tier": "a"
     },
     {
@@ -363,6 +363,14 @@
       "tier": "a"
     },
     {
+      "title": "OpenAI\u2019s New GPT-5.5 Powers Codex on NVIDIA Infrastructure \u2014 and NVIDIA Is Already Putting It to Work",
+      "url": "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 23 Apr 2026 18:57:55 +0000",
+      "summary": "AI agents have revolutionized developer workflows, and their next frontier is knowledge work: processing information, solving complex problems, coming up with new ideas and driving innovation.\u00a0 Codex,",
+      "tier": "a"
+    },
+    {
       "title": "Tag, You\u2019re It: GeForce NOW Levels Up Game Discovery With Xbox Game Pass and Ubisoft+ Labels",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-in-app-labels/",
       "source": "NVIDIA Blog",
@@ -387,6 +395,30 @@
       "tier": "b"
     },
     {
+      "title": "Here\u2019s how our TPUs power increasingly demanding AI workloads.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+      "source": "Google AI Blog",
+      "published": "Thu, 23 Apr 2026 12:00:00 +0000",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\" />Learn how Google\u2019s TPUs power increasingly demanding AI workloads with th",
+      "tier": "a"
+    },
+    {
+      "title": "Introducing GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "source": "OpenAI News",
+      "published": "Thu, 23 Apr 2026 11:00:00 GMT",
+      "summary": "Introducing GPT-5.5, our smartest model yet\u2014faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
+      "tier": "a"
+    },
+    {
+      "title": "GPT-5.5 System Card",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "source": "OpenAI News",
+      "published": "Thu, 23 Apr 2026 11:00:00 GMT",
+      "summary": "",
+      "tier": "a"
+    },
+    {
       "title": "Will fusion power get cheap? Don\u2019t count on it.",
       "url": "https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost/",
       "source": "MIT Tech Review",
@@ -400,6 +432,14 @@
       "source": "Google AI Blog",
       "published": "Thu, 23 Apr 2026 09:00:00 +0000",
       "summary": "Aerial image of the data center",
+      "tier": "a"
+    },
+    {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "source": "OpenAI News",
+      "published": "Thu, 23 Apr 2026 00:00:00 GMT",
+      "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
       "tier": "a"
     },
     {
@@ -440,22 +480,6 @@
       "source": "NVIDIA Blog",
       "published": "Thu, 16 Apr 2026 13:00:11 +0000",
       "summary": "Head straight for orbit with GeForce NOW \u2014 no space helmet required.\u00a0 PRAGMATA, Capcom\u2019s long-awaited sci-fi action adventure, touches down on GeForce NOW the same day it launches worldwide. The futur",
-      "tier": "a"
-    },
-    {
-      "title": "Codex for (almost) everything",
-      "url": "https://openai.com/index/codex-for-almost-everything",
-      "source": "OpenAI News",
-      "published": "Thu, 16 Apr 2026 10:00:00 GMT",
-      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
-      "tier": "a"
-    },
-    {
-      "title": "Introducing GPT-Rosalind for life sciences research",
-      "url": "https://openai.com/index/introducing-gpt-rosalind",
-      "source": "OpenAI News",
-      "published": "Thu, 16 Apr 2026 01:00:00 GMT",
-      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
       "tier": "a"
     },
     {
@@ -515,14 +539,6 @@
       "tier": "a"
     },
     {
-      "title": "New ways to balance cost and reliability in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
-      "source": "Google AI Blog",
-      "published": "Thu, 02 Apr 2026 16:00:00 +0000",
-      "summary": "Gemini API Dials",
-      "tier": "a"
-    },
-    {
       "title": "How data and AI will transform contact centres for financial services",
       "url": "https://cloudblogs.microsoft.com/industry-blog/en-gb/financial-services/2022/07/25/how-data-and-ai-will-transform-contact-centres-for-financial-services/",
       "source": "Microsoft AI",
@@ -544,14 +560,6 @@
       "source": "NVIDIA Blog",
       "published": "Mon, 20 Apr 2026 08:30:55 +0000",
       "summary": "Manufacturing is at an inflection point. Across every major industrial economy, the pressure to do more with less \u2014 due to faster design cycles, leaner operations and strain on skilled labor pools \u2014 i",
-      "tier": "a"
-    },
-    {
-      "title": "OpenAI helps Hyatt advance AI among colleagues",
-      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-      "source": "OpenAI News",
-      "published": "Mon, 20 Apr 2026 00:00:00 GMT",
-      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
       "tier": "a"
     },
     {
@@ -611,12 +619,12 @@
       "tier": "b"
     },
     {
-      "title": "National Robotics Week \u2014 Latest Physical AI Research, Breakthroughs and Resources",
-      "url": "https://blogs.nvidia.com/blog/national-robotics-week-2026/",
-      "source": "NVIDIA Blog",
-      "published": "Fri, 10 Apr 2026 19:40:59 +0000",
-      "summary": "This National Robotics Week, NVIDIA is highlighting the breakthroughs that are bringing AI into the physical world \u2014 as well as the growing wave of robots transforming industries, from agricultural an",
-      "tier": "a"
+      "title": "Ask HN: Demonstrating Value with the Same Tools",
+      "url": "https://news.ycombinator.com/item?id=47879313",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-23T18:15:39",
+      "summary": "",
+      "tier": "c"
     },
     {
       "title": "Researchers Simulated a Delusional User to Test Chatbot Safety",
@@ -625,6 +633,22 @@
       "published": "2026-04-23T15:06:25",
       "summary": "",
       "tier": "c"
+    },
+    {
+      "title": "Anthropic&#8217;s Mythos breach was humiliating",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
+      "source": "The Verge - AI",
+      "published": "2026-04-23T14:24:56-04:00",
+      "summary": "Anthropic's tightly controlled rollout of Claude Mythos has taken an awkward turn. After spending weeks insisting the AI model is so capable at cybersecurity that it is too dangerous to release public",
+      "tier": "b"
+    },
+    {
+      "title": "OpenAI says its new GPT-5.5 model is more efficient and better at coding",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917612/openai-gpt-5-5-chatgpt",
+      "source": "The Verge - AI",
+      "published": "2026-04-23T14:00:00-04:00",
+      "summary": "OpenAI just announced its new GPT-5.5 model, which the company calls its \"smartest and most intuitive to use model yet, and the next step toward a new way of getting work done on a computer.\" OpenAI j",
+      "tier": "b"
     },
     {
       "title": "Why RCF > other code protections",
@@ -691,22 +715,6 @@
       "tier": "c"
     },
     {
-      "title": "Need advice: Back end engineer \u2192 infrastructure: how do you make the transition?",
-      "url": "https://news.ycombinator.com/item?id=47867083",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T18:04:01",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Show HN: Callmux \u2013 MCP multiplexer that cuts tool call context pollution by ~19x",
-      "url": "https://github.com/edimuj/callmux",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T17:50:02",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "AI failure could trigger the next financial crisis, warns Elizabeth Warren",
       "url": "https://www.theverge.com/policy/917026/ai-economy-bubble-elizabeth-warren",
       "source": "The Verge - AI",
@@ -744,22 +752,6 @@
       "source": "The Verge - AI",
       "published": "2026-04-22T12:38:19-04:00",
       "summary": "Google's AI meeting notetaker is no longer limited to Google Meets - Gemini can also generate summaries and transcripts of in-person meetings now, as well as meetings on Zoom and Microsoft Teams, as f",
-      "tier": "b"
-    },
-    {
-      "title": "Now Meta will track what employees do on their computers to train its AI agents",
-      "url": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
-      "source": "The Verge - AI",
-      "published": "2026-04-22T10:22:35-04:00",
-      "summary": "Meta employees' activity at work is now being used to train the company's AI agents. As reported by Reuters, Meta is installing a tool it calls Model Capability Initiative (MCI) on US-based employees'",
-      "tier": "b"
-    },
-    {
-      "title": "Anthropic\u2019s most dangerous AI model just fell into the wrong hands",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/916501/anthropic-mythos-unauthorized-users-access-security",
-      "source": "The Verge - AI",
-      "published": "2026-04-22T05:18:40-04:00",
-      "summary": "Anthropic's Mythos AI model, a powerful cybersecurity tool that the company said could be dangerous in the wrong hands, has been accessed by a \"small group of unauthorized users,\" Bloomberg reports. A",
       "tier": "b"
     }
   ]
