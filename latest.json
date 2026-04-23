@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-22T23:08:42.353284Z",
-  "article_count": 99,
+  "fetched_at": "2026-04-23T08:04:09.546241Z",
+  "article_count": 95,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -75,19 +75,19 @@
       "tier": "b"
     },
     {
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-      "source": "OpenAI News",
-      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
-      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "tier": "a"
-    },
-    {
       "title": "Introducing workspace agents in ChatGPT",
       "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
       "source": "OpenAI News",
       "published": "Wed, 22 Apr 2026 10:00:00 GMT",
       "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "tier": "a"
+    },
+    {
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "source": "OpenAI News",
+      "published": "Wed, 22 Apr 2026 10:00:00 GMT",
+      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
       "tier": "a"
     },
     {
@@ -619,6 +619,14 @@
       "tier": "a"
     },
     {
+      "title": "Aisbf \u2013 AI Service Broker Framework (BETA) unified proxy and intelligent router",
+      "url": "https://aisbf.cloud",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-23T06:03:00",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "X is going to let Grok curate your timeline",
       "url": "https://www.theverge.com/tech/917113/x-ai-grok-timeline-curation",
       "source": "HN - xAI Grok",
@@ -665,14 +673,6 @@
       "published": "2026-04-22T16:09:02-04:00",
       "summary": "OpenAI is giving users of its Business, Enterprise, Edu, and Teachers plans access to cloud-based \"workspace\" agents available in ChatGPT that can perform business tasks. In its blog post, OpenAI give",
       "tier": "b"
-    },
-    {
-      "title": "Show HN: Stonks-CLI \u2013 track your investment portfolio from your terminal",
-      "url": "https://github.com/igoropaniuk/stonks-cli",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T14:05:10",
-      "summary": "",
-      "tier": "c"
     },
     {
       "title": "Watch Sony\u2019s elite ping-pong robot beat top-ranked players",
@@ -723,26 +723,10 @@
       "tier": "b"
     },
     {
-      "title": "Mastra Code",
-      "url": "https://code.mastra.ai/",
-      "source": "HN - Mistral",
-      "published": "2026-04-22T08:50:04",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "Show HN: LibreThinker, free AI assistant for LibreOffice Writer, 10k installs",
       "url": "https://librethinker.com/",
       "source": "HN - xAI Grok",
       "published": "2026-04-22T08:22:16",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Mistral Vibe",
-      "url": "https://mistral.ai/products/vibe",
-      "source": "HN - Mistral",
-      "published": "2026-04-22T06:21:48",
       "summary": "",
       "tier": "c"
     },
@@ -753,22 +737,6 @@
       "published": "2026-04-22T05:18:40-04:00",
       "summary": "Anthropic's Mythos AI model, a powerful cybersecurity tool that the company said could be dangerous in the wrong hands, has been accessed by a \"small group of unauthorized users,\" Bloomberg reports. A",
       "tier": "b"
-    },
-    {
-      "title": "Ask HN: Why aren't companies with unlimited AI tokens not crushing it?",
-      "url": "https://news.ycombinator.com/item?id=47858408",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T03:07:49",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Show HN: MemFactory: Unified Inference and Training Framework for Agent Memory",
-      "url": "https://arxiv.org/abs/2603.29493",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T02:26:05",
-      "summary": "",
-      "tier": "c"
     },
     {
       "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
