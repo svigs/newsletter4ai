@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-04-23T10:08:41.869263Z",
+  "generated_with": "fallback",
+  "model": null,
+  "source_snapshot": "2026-04-22T00:00:00Z",
+  "date_label": "Wednesday, April 22, 2026",
+  "article_count": 0,
+  "headline": "AI recap for April 22, 2026",
+  "strapline": "0 articles across 0 sources in the latest sweep.",
+  "overview": "This recap was built from 0 collected AI stories. The summaries below use a deterministic fallback because a Claude response was unavailable.",
+  "highlights": [
+    {
+      "title": "No articles collected",
+      "summary": "The latest run did not return any stories."
+    }
+  ],
+  "watchlist": [
+    "No active watchlist yet because no articles were collected."
+  ],
+  "themes": [
+    "No theme data yet because no articles were collected."
+  ]
+}
