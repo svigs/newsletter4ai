@@ -1,4 +1,4 @@
-name: Build newsletter4ai
+name: Fetch AI News
 
 on:
   schedule:
@@ -14,9 +14,6 @@ on:
     paths:
       - collector.py
       - feeds.json
-      - generate_recap.py
-      - build_site.py
-      - requirements.txt
       - .github/workflows/fetch.yml
 
 concurrency:
@@ -24,16 +21,14 @@ concurrency:
   cancel-in-progress: false # Set to true to kill old runs, false to let them finish in order
 
 jobs:
-  build:
+  fetch:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: master
           fetch-depth: 0
 
       - name: Set up Python
@@ -44,51 +39,37 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install feedparser requests
 
-      - name: Collect source feeds
+      - name: Fetch AI news
         run: python collector.py
 
-      - name: Generate Claude recap
+      - name: Commit and push changes
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
-        run: python generate_recap.py
-
-      - name: Build static site
-        run: python build_site.py
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-      - name: Commit generated data
+          GITHUB_TOKEN: ${{ secrets.NEWSLETTER_TOKEN }}
         run: |
           set -e
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-
-          if [ -z "$(git status --porcelain -- latest.json recap.json recap.md)" ]; then
-            echo "No generated artifact changes"
+          if git diff --quiet -- latest.json; then
+            echo "No changes to latest.json"
             exit 0
           fi
 
-          git add latest.json recap.json recap.md
-          git commit -m "Refresh newsletter artifacts - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin HEAD:"${GITHUB_REF_NAME}"
+          git add latest.json
+          git commit -m "Update AI news feed - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          # Rebase onto the latest remote master, then retry once if another push lands first.
+          for attempt in 1 2; do
+            git pull --rebase origin master
+            if git push https://x-access-token:${GITHUB_TOKEN}@github.com/svigs/newsletter4ai.git HEAD:master; then
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 2 ]; then
+              echo "Push failed after retry"
+              exit 1
+            fi
+
+            echo "Push was rejected, rebasing on latest master and retrying"
+          done
