@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-23T10:42:01.514308Z",
-  "article_count": 93,
+  "fetched_at": "2026-04-23T10:43:34.535799Z",
+  "article_count": 96,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -659,6 +659,22 @@
       "tier": "c"
     },
     {
+      "title": "Show HN: Callmux \u2013 MCP multiplexer that cuts tool call context pollution by ~19x",
+      "url": "https://github.com/edimuj/callmux",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-22T17:50:02",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Ask HN: In your job with all the AI go-go/execution velocity \u2013 are you lonely?",
+      "url": "https://news.ycombinator.com/item?id=47865907",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-22T16:32:54",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "AI failure could trigger the next financial crisis, warns Elizabeth Warren",
       "url": "https://www.theverge.com/policy/917026/ai-economy-bubble-elizabeth-warren",
       "source": "The Verge - AI",
@@ -687,6 +703,14 @@
       "url": "https://github.com/TencentCloud/CubeSandbox",
       "source": "HN - xAI Grok",
       "published": "2026-04-22T13:36:32",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Ant Group Unveils Ling-2.6-Flash",
+      "url": "https://www.businesswire.com/news/home/20260422256825/en/Ant-Group-Unveils-Ling-2.6-Flash-A-Major-Leap-in-AI-Efficiency",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-22T13:00:23",
       "summary": "",
       "tier": "c"
     },

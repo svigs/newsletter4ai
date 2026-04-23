@@ -1,13 +1,13 @@
 # AI recap for April 23, 2026
 
-93 articles across 12 sources in the latest sweep.
+96 articles across 12 sources in the latest sweep.
 
-_Generated: 2026-04-23T10:42:01.853392Z_
-_Source snapshot: 2026-04-23T10:42:01.514308Z_
+_Generated: 2026-04-23T10:43:34.850982Z_
+_Source snapshot: 2026-04-23T10:43:34.535799Z_
 
 ## Overview
 
-This recap was built from 93 collected AI stories. The summaries below use a deterministic fallback because a Claude response was unavailable.
+This recap was built from 96 collected AI stories. The summaries below use a deterministic fallback because a Claude response was unavailable.
 
 ## Highlights
 
@@ -43,8 +43,8 @@ Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is en
 
 - Tier A contributed 50 stories.
 - Tier B contributed 37 stories.
-- Tier C contributed 6 stories.
+- Tier C contributed 9 stories.
 
 ## Source Count
 
-- Articles collected: 93
+- Articles collected: 96
