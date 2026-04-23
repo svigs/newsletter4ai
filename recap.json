@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-23T10:43:34.850982Z",
+  "generated_at": "2026-04-23T16:58:05.432380Z",
   "generated_with": "fallback",
   "model": null,
-  "source_snapshot": "2026-04-23T10:43:34.535799Z",
+  "source_snapshot": "2026-04-23T16:58:05.031407Z",
   "date_label": "Thursday, April 23, 2026",
-  "article_count": 96,
+  "article_count": 95,
   "headline": "AI recap for April 23, 2026",
-  "strapline": "96 articles across 12 sources in the latest sweep.",
-  "overview": "This recap was built from 96 collected AI stories. The summaries below use a deterministic fallback because a Claude response was unavailable.",
+  "strapline": "95 articles across 12 sources in the latest sweep.",
+  "overview": "This recap was built from 95 collected AI stories. The summaries below use a deterministic fallback because a Claude response was unavailable.",
   "highlights": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -40,6 +40,6 @@
   "themes": [
     "Tier A contributed 50 stories.",
     "Tier B contributed 37 stories.",
-    "Tier C contributed 9 stories."
+    "Tier C contributed 8 stories."
   ]
 }

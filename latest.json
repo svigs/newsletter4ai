@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-23T10:43:34.535799Z",
-  "article_count": 96,
+  "fetched_at": "2026-04-23T16:58:05.031407Z",
+  "article_count": 95,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -64,6 +64,14 @@
       "source": "Google AI Blog",
       "published": "Wed, 22 Apr 2026 12:00:00 +0000",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-600x600.format-webp.webp\" />The eighth generation of Google\u2019s TPU includes two specialized ",
+      "tier": "a"
+    },
+    {
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "source": "DeepMind Blog",
+      "published": "Wed, 22 Apr 2026 10:20:03 +0000",
+      "summary": "",
       "tier": "a"
     },
     {
@@ -259,14 +267,6 @@
       "tier": "b"
     },
     {
-      "title": "A natural protein may protect the GI tract from infection",
-      "url": "https://www.technologyreview.com/2026/04/21/1134858/a-natural-protein-may-protect-the-gi-tract-from-infection/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 21 Apr 2026 21:00:00 +0000",
-      "summary": "Embedded in the body\u2019s mucosal surfaces, proteins called lectins bind to sugars found on cell surfaces. A team led by MIT chemistry professor Laura Kiessling has found that one such protein, intelecti",
-      "tier": "b"
-    },
-    {
       "title": "Partnering with industry leaders to accelerate AI transformation",
       "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
       "source": "DeepMind Blog",
@@ -355,20 +355,36 @@
       "tier": "a"
     },
     {
-      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
-      "source": "DeepMind Blog",
-      "published": "Tue, 03 Mar 2026 16:35:55 +0000",
-      "summary": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.",
-      "tier": "a"
-    },
-    {
       "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
       "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
       "source": "DeepMind Blog",
       "published": "Thu, 26 Mar 2026 15:23:35 +0000",
       "summary": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.",
       "tier": "a"
+    },
+    {
+      "title": "Tag, You\u2019re It: GeForce NOW Levels Up Game Discovery With Xbox Game Pass and Ubisoft+ Labels",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-in-app-labels/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 23 Apr 2026 13:00:51 +0000",
+      "summary": "GeForce NOW is doubling down on what matters most: gamers. This week\u2019s upgrades bring smarter libraries, making it easier than ever for gamers to turn a PC collection into a cloud-powered flex. It sta",
+      "tier": "a"
+    },
+    {
+      "title": "Making Sense of the Early Universe",
+      "url": "https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/",
+      "source": "NVIDIA Blog",
+      "published": "Thu, 23 Apr 2026 13:00:22 +0000",
+      "summary": "This Spring Astronomy Day, here\u2019s a look at how AI and GPUs are helping astronomers work through unprecedented volumes of cosmic data.",
+      "tier": "a"
+    },
+    {
+      "title": "The Download: introducing the Nature issue",
+      "url": "https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue/",
+      "source": "MIT Tech Review",
+      "published": "Thu, 23 Apr 2026 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Nature issue When we talk about \u201c",
+      "tier": "b"
     },
     {
       "title": "Will fusion power get cheap? Don\u2019t count on it.",
@@ -467,14 +483,6 @@
       "tier": "b"
     },
     {
-      "title": "Strength and Destiny Collide: \u2018Samson: A Tyndalston Story\u2019 Arrives in the Cloud",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-samson-a-tyndalston-story/",
-      "source": "NVIDIA Blog",
-      "published": "Thu, 09 Apr 2026 13:00:57 +0000",
-      "summary": "A timeless story of grit, faith and rebellion takes center stage as Samson: A Tyndalston Story joins the GeForce NOW library today.\u00a0 The highly anticipated release from Liquid Swords can now be stream",
-      "tier": "a"
-    },
-    {
       "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
       "url": "https://huggingface.co/blog/waypoint-1-5",
       "source": "Hugging Face",
@@ -496,14 +504,6 @@
       "source": "Microsoft AI",
       "published": "Thu, 06 Oct 2022 14:58:15 +0000",
       "summary": "<p>The post <a href=\"https://blogs.microsoft.com/ai/microsoft-open-sources-its-farm-of-the-future-toolkit/\">Microsoft open sources its \u2018farm of the future\u2019 toolkit</a> appeared first on <a href=\"https",
-      "tier": "a"
-    },
-    {
-      "title": "From RTX to Spark: NVIDIA Accelerates Gemma 4 for Local Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
-      "source": "NVIDIA Blog",
-      "published": "Thu, 02 Apr 2026 16:15:58 +0000",
-      "summary": "Open models are driving a new wave of on-device AI, extending innovation beyond the cloud to\u00a0everyday devices.\u00a0As\u00a0these\u00a0models advance, their value increasingly depends on access to local, real-time c",
       "tier": "a"
     },
     {
@@ -619,6 +619,22 @@
       "tier": "a"
     },
     {
+      "title": "Researchers Simulated a Delusional User to Test Chatbot Safety",
+      "url": "https://www.404media.co/delusion-using-chatgpt-gemini-claude-grok-safety-ai-psychosis-study/",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-23T15:06:25",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Why RCF > other code protections",
+      "url": "https://news.ycombinator.com/item?id=47875370",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-23T13:13:08",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "Structured planning, execution, and memory for LLM agents (ragbits 1.6)",
       "url": "https://deepsense.ai/blog/task-planning-execution-visibility-and-persistent-memory-for-ai-agents-ragbits-1-6-release/",
       "source": "HN - DeepSeek",
@@ -627,12 +643,36 @@
       "tier": "c"
     },
     {
+      "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
+      "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+      "source": "The Verge - AI",
+      "published": "2026-04-23T10:00:00-04:00",
+      "summary": "Today on Decoder, I want to lay out an idea that&#8217;s been banging around my head for weeks now as we&#8217;ve been reporting on AI and having conversations here on this show. I&#8217;ve been calli",
+      "tier": "b"
+    },
+    {
+      "title": "You\u2019re about to feel the AI money squeeze",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
+      "source": "The Verge - AI",
+      "published": "2026-04-23T09:45:00-04:00",
+      "summary": "Earlier this month, millions of OpenClaw users woke up to a sweeping mandate: The viral AI agent tool, which this year took the worldwide tech industry by storm, had been severely restricted by Anthro",
+      "tier": "b"
+    },
+    {
       "title": "SpaceX and Cursor have explored a team-up with Mistral to take on AI rivals",
       "url": "https://www.businessinsider.com/elon-musk-xai-explored-collaborating-with-mistral-cursor-2026-4",
       "source": "HN - Mistral",
       "published": "2026-04-23T08:52:03",
       "summary": "",
       "tier": "c"
+    },
+    {
+      "title": "Microsoft launches \u2018vibe working\u2019 in Word, Excel, and PowerPoint",
+      "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
+      "source": "The Verge - AI",
+      "published": "2026-04-23T07:34:18-04:00",
+      "summary": "Microsoft is rolling out a new Agent Mode inside Office apps like Word, Excel, and PowerPoint this week. Previously described by Microsoft as \"vibe working,\" the Agent Mode is a more powerful version ",
+      "tier": "b"
     },
     {
       "title": "Aisbf \u2013 AI Service Broker Framework (BETA) unified proxy and intelligent router",
@@ -667,14 +707,6 @@
       "tier": "c"
     },
     {
-      "title": "Ask HN: In your job with all the AI go-go/execution velocity \u2013 are you lonely?",
-      "url": "https://news.ycombinator.com/item?id=47865907",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T16:32:54",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "AI failure could trigger the next financial crisis, warns Elizabeth Warren",
       "url": "https://www.theverge.com/policy/917026/ai-economy-bubble-elizabeth-warren",
       "source": "The Verge - AI",
@@ -697,22 +729,6 @@
       "published": "2026-04-22T13:43:38-04:00",
       "summary": "Humans have been building ping-pong playing robots for decades, such as Omron's FORPHEUS that challenged amateur competitors at CES 2017. What sets Ace apart from the rest is that the robot, which was",
       "tier": "b"
-    },
-    {
-      "title": "Show HN: We built a <60ms, open-source alternative to E2B using RustVMM and KVM",
-      "url": "https://github.com/TencentCloud/CubeSandbox",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T13:36:32",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Ant Group Unveils Ling-2.6-Flash",
-      "url": "https://www.businesswire.com/news/home/20260422256825/en/Ant-Group-Unveils-Ling-2.6-Flash-A-Major-Leap-in-AI-Efficiency",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-22T13:00:23",
-      "summary": "",
-      "tier": "c"
     },
     {
       "title": "Anthropic&#8217;s Mythos rollout has missed America\u2019s cybersecurity agency",
@@ -744,30 +760,6 @@
       "source": "The Verge - AI",
       "published": "2026-04-22T05:18:40-04:00",
       "summary": "Anthropic's Mythos AI model, a powerful cybersecurity tool that the company said could be dangerous in the wrong hands, has been accessed by a \"small group of unauthorized users,\" Bloomberg reports. A",
-      "tier": "b"
-    },
-    {
-      "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
-      "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
-      "source": "The Verge - AI",
-      "published": "2026-04-21T18:45:37-04:00",
-      "summary": "With an IPO looming for Elon Musk's SpaceX / xAI / X combo platter of companies, SpaceX has announced an odd arrangement to either acquire the automated programming platform Cursor for $60 billion or ",
-      "tier": "b"
-    },
-    {
-      "title": "AI backlash is coming for elections",
-      "url": "https://www.theverge.com/policy/916210/ai-midterm-elections-data-centers-jobs",
-      "source": "The Verge - AI",
-      "published": "2026-04-21T15:00:05-04:00",
-      "summary": "Ask Americans how they feel about AI and most say they have concerns. Communities have mounted resistance to data center projects, stalling them across the US. On social media, anger at AI companies a",
-      "tier": "b"
-    },
-    {
-      "title": "OpenAI\u2019s updated image generator can now pull information from the web",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/916166/openai-chatgpt-images-2",
-      "source": "The Verge - AI",
-      "published": "2026-04-21T15:00:00-04:00",
-      "summary": "OpenAI is rolling out the latest version of its AI-powered image generator with new \"thinking capabilities,\" allowing it to search the web to help it create multiple images from a single prompt. On Tu",
       "tier": "b"
     }
   ]
