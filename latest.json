@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-24T08:12:30.981194Z",
-  "article_count": 103,
+  "fetched_at": "2026-04-24T18:42:12.113505Z",
+  "article_count": 104,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -211,22 +211,6 @@
       "tier": "a"
     },
     {
-      "title": "Roundtables: Unveiling The 10 Things That Matter in AI Right Now",
-      "url": "https://www.technologyreview.com/2026/04/21/1135486/roundtables-unveiling-the-10-things-that-matter-in-ai-right-now/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 21 Apr 2026 22:09:25 +0000",
-      "summary": "Listen to the session or watch below Subscribers saw a special edition of Roundtables simulcast live from EmTech AI, MIT Technology Review\u2019s signature conference for AI leadership. Subscribers got an ",
-      "tier": "b"
-    },
-    {
-      "title": "The new word in home construction could be \u201cplastics\u201d",
-      "url": "https://www.technologyreview.com/2026/04/21/1134856/the-new-word-in-home-construction-could-be-plastics/",
-      "source": "MIT Tech Review",
-      "published": "Tue, 21 Apr 2026 21:00:00 +0000",
-      "summary": "Single-use plastics are a persistent source of environmental pollution, and the need to house a growing global population puts increasing pressure on resources such as timber. MIT engineers have an id",
-      "tier": "b"
-    },
-    {
       "title": "Partnering with industry leaders to accelerate AI transformation",
       "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
       "source": "DeepMind Blog",
@@ -272,14 +256,6 @@
       "source": "Google AI Blog",
       "published": "Tue, 14 Apr 2026 17:00:00 +0000",
       "summary": "Video showing Skills in Chrome",
-      "tier": "a"
-    },
-    {
-      "title": "Bringing people together at AI for the Economy Forum",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
-      "source": "Google AI Blog",
-      "published": "Tue, 14 Apr 2026 09:00:00 +0000",
-      "summary": "Woman working with a large tool. On the left are the Google and MIT FutureTech logos, \"AI for the Economy Forum\", and \"Innovation and Adaption in the New Era\"",
       "tier": "a"
     },
     {
@@ -515,14 +491,6 @@
       "tier": "b"
     },
     {
-      "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
-      "url": "https://huggingface.co/blog/waypoint-1-5",
-      "source": "Hugging Face",
-      "published": "Thu, 09 Apr 2026 00:00:00 GMT",
-      "summary": "",
-      "tier": "b"
-    },
-    {
       "title": "Microsoft open sources its \u2018farm of the future\u2019 toolkit",
       "url": "https://blogs.microsoft.com/ai/microsoft-open-sources-its-farm-of-the-future-toolkit/",
       "source": "Microsoft AI",
@@ -603,6 +571,38 @@
       "tier": "b"
     },
     {
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "source": "Google AI Blog",
+      "published": "Fri, 24 Apr 2026 19:00:00 +0000",
+      "summary": "Black screen with illustrations including a laptop with document and email icons streaming out, a smiling person holding a phone and looking at a checklist, and a user activating Gemini Live",
+      "tier": "a"
+    },
+    {
+      "title": "The Download: supercharged scams and studying AI healthcare",
+      "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
+      "source": "MIT Tech Review",
+      "published": "Fri, 24 Apr 2026 12:10:00 +0000",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We\u2019re in a new era of AI-driven scams When ChatGPT",
+      "tier": "b"
+    },
+    {
+      "title": "Health-care AI is here. We don\u2019t know if it actually helps patients.",
+      "url": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
+      "source": "MIT Tech Review",
+      "published": "Fri, 24 Apr 2026 09:00:00 +0000",
+      "summary": "I don\u2019t need to tell you that\u00a0AI is everywhere. Or that it is being used, increasingly, in hospitals. Doctors are using AI to help them with notetaking. AI-based tools are trawling through patient rec",
+      "tier": "b"
+    },
+    {
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "source": "Hugging Face",
+      "published": "Fri, 24 Apr 2026 00:00:00 GMT",
+      "summary": "",
+      "tier": "b"
+    },
+    {
       "title": "7 ways to travel smarter this summer, with help from Google",
       "url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
       "source": "Google AI Blog",
@@ -616,6 +616,78 @@
       "source": "VentureBeat - AI",
       "published": "Fri, 16 Jan 2026 14:01:00 GMT",
       "summary": "<p>Alfred Wahlforss was running out of options. His startup, <a href=\"https://listenlabs.ai/\">Listen Labs</a>, needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s <a href=\"",
+      "tier": "b"
+    },
+    {
+      "title": "Researchers Simulated a Delusional User to Test Chatbot Safety",
+      "url": "https://www.404media.co/delusion-using-chatgpt-gemini-claude-grok-safety-ai-psychosis-study/",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-24T14:55:34",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Ask HN: How are you using AI code assistants on large messy legacy code bases?",
+      "url": "https://news.ycombinator.com/item?id=47890749",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-24T14:24:37",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Grok plays along with researchers pretending to be delusional",
+      "url": "https://www.theguardian.com/technology/2026/apr/24/musk-grok-x-ai-researchers-delusional-advice-inputs",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-24T13:43:03",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "How Project Maven taught the military to love AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson",
+      "source": "The Verge - AI",
+      "published": "2026-04-24T13:00:00-04:00",
+      "summary": "In the first 24 hours of the assault on Iran, the US military struck more than 1,000 targets, nearly double the scale of the \"shock and awe\" attack on Iraq over two decades ago. This acceleration was ",
+      "tier": "b"
+    },
+    {
+      "title": "GIMP at LGM2026: committee, grants, no-AI policy, and that GSoC thing",
+      "url": "https://librearts.org/2026/04/gimp-at-lgm2026/",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-24T11:49:03",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "AirPods, Touch Bars, and the rest of Tim Cook&#8217;s legacy",
+      "url": "https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition",
+      "source": "The Verge - AI",
+      "published": "2026-04-24T10:43:07-04:00",
+      "summary": "We knew at some point Tim Cook would step down from his position as Apple's CEO. Over the last year, it has become increasingly obvious that John Ternus was his likely successor. The news this week wa",
+      "tier": "b"
+    },
+    {
+      "title": "Show HN: Daily China AI news briefing \u2013 engineering, product, and business",
+      "url": "https://overnightai.substack.com/p/china-ai-news-eight-chinese-chip",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-24T10:25:44",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "DeepSeek-V4: Making 1M token context efficient",
+      "url": "https://firethering.com/deepseek-v4-open-source-million-token-context/",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-24T10:07:16",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Musk vs. Altman is here, and it&#8217;s going to get messy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917755/musk-altman-openai-xai-gossip",
+      "source": "The Verge - AI",
+      "published": "2026-04-24T08:00:00-04:00",
+      "summary": "Elon Musk cofounded OpenAI, and then flounced off in a huff when he wasn't anointed CEO, leaving Sam Altman as the last power-hungry man standing. Now, Musk is back with a lawsuit, and a trial is sche",
       "tier": "b"
     },
     {
@@ -633,6 +705,22 @@
       "published": "2026-04-24T06:46:32",
       "summary": "",
       "tier": "c"
+    },
+    {
+      "title": "China\u2019s DeepSeek previews new AI model a year after jolting US rivals",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
+      "source": "The Verge - AI",
+      "published": "2026-04-24T05:45:30-04:00",
+      "summary": "Chinese AI company DeepSeek released a preview of its hotly anticipated next-generation AI model V4 on Friday, saying that the open-source model can compete with leading closed-source systems from US ",
+      "tier": "b"
+    },
+    {
+      "title": "Prestigious photo contest answers \u2018what is a photo?\u2019",
+      "url": "https://www.theverge.com/gadgets/918016/prestigious-photo-contest-answers-what-is-a-photo",
+      "source": "The Verge - AI",
+      "published": "2026-04-24T05:40:07-04:00",
+      "summary": "We love to muse over how \"real\" photography is defined here at The Verge now that generative AI is so prolific, and the World Press Photo competition might have the answer. The prestigious award celeb",
+      "tier": "b"
     },
     {
       "title": "Grok Voice Think Fast 1.0",
@@ -671,14 +759,6 @@
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
       "source": "HN - DeepSeek",
       "published": "2026-04-24T03:07:54",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek-V4 Preview Version is launched",
-      "url": "https://news.ycombinator.com/item?id=47885003",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T03:06:13",
       "summary": "",
       "tier": "c"
     },
@@ -723,28 +803,12 @@
       "tier": "b"
     },
     {
-      "title": "Ask HN: Demonstrating Value with the Same Tools",
-      "url": "https://news.ycombinator.com/item?id=47879313",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-23T18:15:39",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "Meta is laying off 10 percent of its staff",
       "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
       "source": "The Verge - AI",
       "published": "2026-04-23T15:41:07-04:00",
       "summary": "Meta is planning to layoff around 10 percent of employees in May, according to a memo from the company's chief people officer, Janelle Gale, published by Bloomberg. That means approximately 8,000 peop",
       "tier": "b"
-    },
-    {
-      "title": "Researchers Simulated a Delusional User to Test Chatbot Safety",
-      "url": "https://www.404media.co/delusion-using-chatgpt-gemini-claude-grok-safety-ai-psychosis-study/",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-23T15:06:25",
-      "summary": "",
-      "tier": "c"
     },
     {
       "title": "Anthropic&#8217;s Mythos breach was humiliating",
@@ -763,67 +827,11 @@
       "tier": "b"
     },
     {
-      "title": "Why RCF > other code protections",
-      "url": "https://news.ycombinator.com/item?id=47875370",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-23T13:13:08",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "THE PEOPLE DO NOT YEARN FOR AUTOMATION",
       "url": "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
       "source": "The Verge - AI",
       "published": "2026-04-23T10:00:00-04:00",
       "summary": "Today on Decoder, I want to lay out an idea that&#8217;s been banging around my head for weeks now as we&#8217;ve been reporting on AI and having conversations here on this show. I&#8217;ve been calli",
-      "tier": "b"
-    },
-    {
-      "title": "You\u2019re about to feel the AI money squeeze",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/917380/ai-monetization-anthropic-openai-token-economics-revenue",
-      "source": "The Verge - AI",
-      "published": "2026-04-23T09:45:00-04:00",
-      "summary": "Earlier this month, millions of OpenClaw users woke up to a sweeping mandate: The viral AI agent tool, which this year took the worldwide tech industry by storm, had been severely restricted by Anthro",
-      "tier": "b"
-    },
-    {
-      "title": "SpaceX and Cursor have explored a team-up with Mistral to take on AI rivals",
-      "url": "https://www.businessinsider.com/elon-musk-xai-explored-collaborating-with-mistral-cursor-2026-4",
-      "source": "HN - Mistral",
-      "published": "2026-04-23T08:52:03",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Microsoft launches \u2018vibe working\u2019 in Word, Excel, and PowerPoint",
-      "url": "https://www.theverge.com/news/917328/microsoft-agent-mode-vibe-working-office-word-excel-powerpoint",
-      "source": "The Verge - AI",
-      "published": "2026-04-23T07:34:18-04:00",
-      "summary": "Microsoft is rolling out a new Agent Mode inside Office apps like Word, Excel, and PowerPoint this week. Previously described by Microsoft as \"vibe working,\" the Agent Mode is a more powerful version ",
-      "tier": "b"
-    },
-    {
-      "title": "AI failure could trigger the next financial crisis, warns Elizabeth Warren",
-      "url": "https://www.theverge.com/policy/917026/ai-economy-bubble-elizabeth-warren",
-      "source": "The Verge - AI",
-      "published": "2026-04-22T16:29:05-04:00",
-      "summary": "\"I know a bubble when I see one.\" That's what Sen. Elizabeth Warren (D-MA), who led the push to create a new consumer financial regulator in the wake of the 2008 recession, told a crowd at a Vanderbil",
-      "tier": "b"
-    },
-    {
-      "title": "OpenAI now lets teams make custom bots that can do work on their own",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots",
-      "source": "The Verge - AI",
-      "published": "2026-04-22T16:09:02-04:00",
-      "summary": "OpenAI is giving users of its Business, Enterprise, Edu, and Teachers plans access to cloud-based \"workspace\" agents available in ChatGPT that can perform business tasks. In its blog post, OpenAI give",
-      "tier": "b"
-    },
-    {
-      "title": "Watch Sony\u2019s elite ping-pong robot beat top-ranked players",
-      "url": "https://www.theverge.com/tech/916800/sony-ai-ace-ping-pong-table-tennis-robot-cameras",
-      "source": "The Verge - AI",
-      "published": "2026-04-22T13:43:38-04:00",
-      "summary": "Humans have been building ping-pong playing robots for decades, such as Omron's FORPHEUS that challenged amateur competitors at CES 2017. What sets Ace apart from the rest is that the robot, which was",
       "tier": "b"
     }
   ]
