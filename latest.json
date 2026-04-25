@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-24T18:42:12.113505Z",
-  "article_count": 104,
+  "fetched_at": "2026-04-25T07:25:58.722252Z",
+  "article_count": 101,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -96,14 +96,6 @@
       "source": "MIT Tech Review",
       "published": "Wed, 22 Apr 2026 10:00:00 +0000",
       "summary": "When people talk about \u201cnature,\u201d they\u2019re generally talking about things that aren\u2019t made by human beings. Rocks. Reefs. Red wolves. But while there is plenty of God\u2019s creation to go around, it is hard",
-      "tier": "b"
-    },
-    {
-      "title": "Los Angeles is finally going underground",
-      "url": "https://www.technologyreview.com/2026/04/22/1135449/los-angeles-subway-going-underground/",
-      "source": "MIT Tech Review",
-      "published": "Wed, 22 Apr 2026 10:00:00 +0000",
-      "summary": "Los Angeles deserves its reputation as the quintessential car city\u2014the rhythms of its 2,200 square miles are dictated by wide boulevards and concrete arcs of freeways. But it once had a world-class ra",
       "tier": "b"
     },
     {
@@ -571,6 +563,14 @@
       "tier": "b"
     },
     {
+      "title": "Three reasons why DeepSeek\u2019s new model matters",
+      "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+      "source": "MIT Tech Review",
+      "published": "Fri, 24 Apr 2026 21:40:58 +0000",
+      "summary": "On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Notably, the model can process much longer prompts than its last generation, thanks to a new design t",
+      "tier": "b"
+    },
+    {
       "title": "8 Gemini tips for organizing your space (and life)",
       "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
       "source": "Google AI Blog",
@@ -619,6 +619,46 @@
       "tier": "b"
     },
     {
+      "title": "Show HN: A CLI to use any model in your coding agent",
+      "url": "https://getaivo.dev/",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-25T06:44:05",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Need 12 testers for 14 days",
+      "url": "https://news.ycombinator.com/item?id=47898427",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-25T03:40:51",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "GCC Establishes Working Group to Decide on AI/LLM Policy",
+      "url": "https://www.phoronix.com/news/GCC-Working-Group-AI-Policy",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-25T02:18:46",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Show HN: Lilo \u2013 a self-hosted, open-source intelligent personal OS",
+      "url": "https://github.com/abi/lilo",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-24T19:46:30",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "How good is Mac Studio M3 Ultra for Trillion param models like DeepSeekv4?",
+      "url": "https://news.ycombinator.com/item?id=47894785",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-24T19:34:22",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "Researchers Simulated a Delusional User to Test Chatbot Safety",
       "url": "https://www.404media.co/delusion-using-chatgpt-gemini-claude-grok-safety-ai-psychosis-study/",
       "source": "HN - xAI Grok",
@@ -643,20 +683,28 @@
       "tier": "c"
     },
     {
+      "title": "Ask HN: Why is cache for DeepSeek-v4 cheapest on Vercel AI Gateway?",
+      "url": "https://news.ycombinator.com/item?id=47889982",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-24T13:28:45",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "DeepSeek Returns with V4-Pro and V4-Flash",
+      "url": "https://thenextweb.com/news/deepseek-v4-pro-flash-launch-open-source",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-24T13:14:12",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "How Project Maven taught the military to love AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson",
       "source": "The Verge - AI",
       "published": "2026-04-24T13:00:00-04:00",
       "summary": "In the first 24 hours of the assault on Iran, the US military struck more than 1,000 targets, nearly double the scale of the \"shock and awe\" attack on Iraq over two decades ago. This acceleration was ",
       "tier": "b"
-    },
-    {
-      "title": "GIMP at LGM2026: committee, grants, no-AI policy, and that GSoC thing",
-      "url": "https://librearts.org/2026/04/gimp-at-lgm2026/",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-24T11:49:03",
-      "summary": "",
-      "tier": "c"
     },
     {
       "title": "AirPods, Touch Bars, and the rest of Tim Cook&#8217;s legacy",
@@ -671,6 +719,14 @@
       "url": "https://overnightai.substack.com/p/china-ai-news-eight-chinese-chip",
       "source": "HN - xAI Grok",
       "published": "2026-04-24T10:25:44",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Ask HN: Who is using DeepSeek in production",
+      "url": "https://news.ycombinator.com/item?id=47888067",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-24T10:07:17",
       "summary": "",
       "tier": "c"
     },
@@ -699,14 +755,6 @@
       "tier": "c"
     },
     {
-      "title": "DeepSeek targets $20B valuation to stop poaching of staff",
-      "url": "https://www.ft.com/content/f7c65d8e-aed1-4767-9ea3-9715cb8a24e0",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T06:46:32",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "China\u2019s DeepSeek previews new AI model a year after jolting US rivals",
       "url": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
       "source": "The Verge - AI",
@@ -721,78 +769,6 @@
       "published": "2026-04-24T05:40:07-04:00",
       "summary": "We love to muse over how \"real\" photography is defined here at The Verge now that generative AI is so prolific, and the World Press Photo competition might have the answer. The prestigious award celeb",
       "tier": "b"
-    },
-    {
-      "title": "Grok Voice Think Fast 1.0",
-      "url": "https://x.ai/news/grok-voice-think-fast-1",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-24T04:31:07",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek V4 is out. the best open-source on coding. here's the breakdown",
-      "url": "https://news.ycombinator.com/item?id=47885230",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T03:40:36",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek V4 Flash",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T03:20:37",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek-V4",
-      "url": "https://huggingface.co/collections/deepseek-ai/deepseek-v4",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T03:08:01",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T03:07:54",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek v4",
-      "url": "https://api-docs.deepseek.com/",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T03:01:21",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek-V4 Technical Report [pdf]",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T02:55:33",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Jensen Huang warns Huawei chips for DeepSeek models would be 'horrible' for US",
-      "url": "https://www.scmp.com/tech/article/3350460/nvidias-jensen-huang-warns-huawei-chips-deepseek-ai-models-would-be-horrible-us",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-23T21:48:01",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Meta says it will cut 8k jobs as AI spending grows",
-      "url": "https://www.bbc.com/news/articles/crm1y89vek8o",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-23T19:51:20",
-      "summary": "",
-      "tier": "c"
     },
     {
       "title": "Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax",
