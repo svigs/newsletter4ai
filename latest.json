@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-25T07:25:58.722252Z",
-  "article_count": 101,
+  "fetched_at": "2026-04-25T18:42:21.401366Z",
+  "article_count": 96,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -619,6 +619,38 @@
       "tier": "b"
     },
     {
+      "title": "DeepSeek V4 with Strix: a quick test",
+      "url": "https://theaq.blog/2026/04/25/deepseek-v4-with-strix-a-quick-test.html",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-25T17:57:02",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "DeepSeek V4 in vLLM: Efficient Long-Context Attention",
+      "url": "https://vllm-website-pdzeaspbm-inferact-inc.vercel.app/blog/deepseek-v4",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-25T15:02:53",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Show HN: Enlist AI: Sub-second interview coaching with persistence",
+      "url": "https://news.ycombinator.com/item?id=47900781",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-25T12:05:02",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "url": "https://github.com/nex-crm/wuphf",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-25T08:53:53",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "Show HN: A CLI to use any model in your coding agent",
       "url": "https://getaivo.dev/",
       "source": "HN - DeepSeek",
@@ -659,46 +691,6 @@
       "tier": "c"
     },
     {
-      "title": "Researchers Simulated a Delusional User to Test Chatbot Safety",
-      "url": "https://www.404media.co/delusion-using-chatgpt-gemini-claude-grok-safety-ai-psychosis-study/",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-24T14:55:34",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Ask HN: How are you using AI code assistants on large messy legacy code bases?",
-      "url": "https://news.ycombinator.com/item?id=47890749",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-24T14:24:37",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Grok plays along with researchers pretending to be delusional",
-      "url": "https://www.theguardian.com/technology/2026/apr/24/musk-grok-x-ai-researchers-delusional-advice-inputs",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-24T13:43:03",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Ask HN: Why is cache for DeepSeek-v4 cheapest on Vercel AI Gateway?",
-      "url": "https://news.ycombinator.com/item?id=47889982",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T13:28:45",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek Returns with V4-Pro and V4-Flash",
-      "url": "https://thenextweb.com/news/deepseek-v4-pro-flash-launch-open-source",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T13:14:12",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "How Project Maven taught the military to love AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson",
       "source": "The Verge - AI",
@@ -715,44 +707,12 @@
       "tier": "b"
     },
     {
-      "title": "Show HN: Daily China AI news briefing \u2013 engineering, product, and business",
-      "url": "https://overnightai.substack.com/p/china-ai-news-eight-chinese-chip",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-24T10:25:44",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Ask HN: Who is using DeepSeek in production",
-      "url": "https://news.ycombinator.com/item?id=47888067",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T10:07:17",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek-V4: Making 1M token context efficient",
-      "url": "https://firethering.com/deepseek-v4-open-source-million-token-context/",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T10:07:16",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "Musk vs. Altman is here, and it&#8217;s going to get messy",
       "url": "https://www.theverge.com/ai-artificial-intelligence/917755/musk-altman-openai-xai-gossip",
       "source": "The Verge - AI",
       "published": "2026-04-24T08:00:00-04:00",
       "summary": "Elon Musk cofounded OpenAI, and then flounced off in a huff when he wasn't anointed CEO, leaving Sam Altman as the last power-hungry man standing. Now, Musk is back with a lawsuit, and a trial is sche",
       "tier": "b"
-    },
-    {
-      "title": "DeepSeek V4 in vLLM: Efficient Long-Context Attention",
-      "url": "https://vllm-website-pdzeaspbm-inferact-inc.vercel.app/blog/deepseek-v4",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T07:54:27",
-      "summary": "",
-      "tier": "c"
     },
     {
       "title": "China\u2019s DeepSeek previews new AI model a year after jolting US rivals",
