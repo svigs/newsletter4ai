@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-25T18:42:21.401366Z",
-  "article_count": 96,
+  "fetched_at": "2026-04-26T07:46:54.062595Z",
+  "article_count": 93,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -619,6 +619,22 @@
       "tier": "b"
     },
     {
+      "title": "DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles",
+      "url": "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-25T23:44:05",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Show HN: LawVM, a compiler for replaying amendment acts into point-in-time law",
+      "url": "https://lawvm.org/",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-25T21:38:06",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "DeepSeek V4 with Strix: a quick test",
       "url": "https://theaq.blog/2026/04/25/deepseek-v4-with-strix-a-quick-test.html",
       "source": "HN - DeepSeek",
@@ -647,46 +663,6 @@
       "url": "https://github.com/nex-crm/wuphf",
       "source": "HN - xAI Grok",
       "published": "2026-04-25T08:53:53",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Show HN: A CLI to use any model in your coding agent",
-      "url": "https://getaivo.dev/",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-25T06:44:05",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Need 12 testers for 14 days",
-      "url": "https://news.ycombinator.com/item?id=47898427",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-25T03:40:51",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "GCC Establishes Working Group to Decide on AI/LLM Policy",
-      "url": "https://www.phoronix.com/news/GCC-Working-Group-AI-Policy",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-25T02:18:46",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Show HN: Lilo \u2013 a self-hosted, open-source intelligent personal OS",
-      "url": "https://github.com/abi/lilo",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-24T19:46:30",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "How good is Mac Studio M3 Ultra for Trillion param models like DeepSeekv4?",
-      "url": "https://news.ycombinator.com/item?id=47894785",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-24T19:34:22",
       "summary": "",
       "tier": "c"
     },
