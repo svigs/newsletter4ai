@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-04-26T07:46:54.062595Z",
-  "article_count": 93,
+  "fetched_at": "2026-04-26T18:43:36.941856Z",
+  "article_count": 92,
   "articles": [
     {
       "title": "Protecting people from harmful manipulation",
@@ -619,6 +619,30 @@
       "tier": "b"
     },
     {
+      "title": "DeepSeek V4 plays Go on a 9x9 board",
+      "url": "https://chat.deepseek.com/share/95z1fr6y7rj4q5nmd0",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-26T12:48:26",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Show HN: UseMoney AI: AI Copilot for Retail Investors of India",
+      "url": "https://news.ycombinator.com/item?id=47909866",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-26T12:42:42",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "Ask HN: I think we need Trustpilot for GitHub users, don't we?",
+      "url": "https://news.ycombinator.com/item?id=47908718",
+      "source": "HN - xAI Grok",
+      "published": "2026-04-26T09:09:34",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles",
       "url": "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/",
       "source": "HN - DeepSeek",
@@ -631,38 +655,6 @@
       "url": "https://lawvm.org/",
       "source": "HN - xAI Grok",
       "published": "2026-04-25T21:38:06",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek V4 with Strix: a quick test",
-      "url": "https://theaq.blog/2026/04/25/deepseek-v4-with-strix-a-quick-test.html",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-25T17:57:02",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek V4 in vLLM: Efficient Long-Context Attention",
-      "url": "https://vllm-website-pdzeaspbm-inferact-inc.vercel.app/blog/deepseek-v4",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-25T15:02:53",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Show HN: Enlist AI: Sub-second interview coaching with persistence",
-      "url": "https://news.ycombinator.com/item?id=47900781",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-25T12:05:02",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-      "url": "https://github.com/nex-crm/wuphf",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-25T08:53:53",
       "summary": "",
       "tier": "c"
     },
