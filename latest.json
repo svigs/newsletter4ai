@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-26T18:43:36.941856Z",
+  "fetched_at": "2026-04-27T08:34:10.211742Z",
   "article_count": 92,
   "articles": [
     {
@@ -331,43 +331,11 @@
       "tier": "a"
     },
     {
-      "title": "Automations",
-      "url": "https://openai.com/academy/codex-automations",
-      "source": "OpenAI News",
-      "published": "Thu, 23 Apr 2026 10:00:00 GMT",
-      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-      "tier": "a"
-    },
-    {
-      "title": "Top 10 uses for Codex at work",
-      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
-      "source": "OpenAI News",
-      "published": "Thu, 23 Apr 2026 10:00:00 GMT",
-      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "tier": "a"
-    },
-    {
       "title": "Plugins and skills",
       "url": "https://openai.com/academy/codex-plugins-and-skills",
       "source": "OpenAI News",
       "published": "Thu, 23 Apr 2026 10:00:00 GMT",
       "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "tier": "a"
-    },
-    {
-      "title": "Working with Codex",
-      "url": "https://openai.com/academy/working-with-codex",
-      "source": "OpenAI News",
-      "published": "Thu, 23 Apr 2026 10:00:00 GMT",
-      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "tier": "a"
-    },
-    {
-      "title": "Codex settings",
-      "url": "https://openai.com/academy/codex-settings",
-      "source": "OpenAI News",
-      "published": "Thu, 23 Apr 2026 10:00:00 GMT",
-      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
       "tier": "a"
     },
     {
@@ -379,11 +347,43 @@
       "tier": "a"
     },
     {
+      "title": "Automations",
+      "url": "https://openai.com/academy/codex-automations",
+      "source": "OpenAI News",
+      "published": "Thu, 23 Apr 2026 10:00:00 GMT",
+      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
+      "tier": "a"
+    },
+    {
       "title": "How to get started with Codex",
       "url": "https://openai.com/academy/codex-how-to-start",
       "source": "OpenAI News",
       "published": "Thu, 23 Apr 2026 10:00:00 GMT",
       "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "tier": "a"
+    },
+    {
+      "title": "Top 10 uses for Codex at work",
+      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
+      "source": "OpenAI News",
+      "published": "Thu, 23 Apr 2026 10:00:00 GMT",
+      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "tier": "a"
+    },
+    {
+      "title": "Codex settings",
+      "url": "https://openai.com/academy/codex-settings",
+      "source": "OpenAI News",
+      "published": "Thu, 23 Apr 2026 10:00:00 GMT",
+      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
+      "tier": "a"
+    },
+    {
+      "title": "Working with Codex",
+      "url": "https://openai.com/academy/working-with-codex",
+      "source": "OpenAI News",
+      "published": "Thu, 23 Apr 2026 10:00:00 GMT",
+      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
       "tier": "a"
     },
     {
@@ -400,14 +400,6 @@
       "source": "Google AI Blog",
       "published": "Thu, 23 Apr 2026 09:00:00 +0000",
       "summary": "Aerial image of the data center",
-      "tier": "a"
-    },
-    {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
-      "source": "OpenAI News",
-      "published": "Thu, 23 Apr 2026 00:00:00 GMT",
-      "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
       "tier": "a"
     },
     {
@@ -499,6 +491,22 @@
       "tier": "a"
     },
     {
+      "title": "Our principles",
+      "url": "https://openai.com/index/our-principles",
+      "source": "OpenAI News",
+      "published": "Sun, 26 Apr 2026 16:00:00 GMT",
+      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "tier": "a"
+    },
+    {
+      "title": "Announcing our partnership with the Republic of Korea",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "source": "DeepMind Blog",
+      "published": "Mon, 27 Apr 2026 07:00:06 +0000",
+      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
+      "tier": "a"
+    },
+    {
       "title": "How data and AI will transform contact centres for financial services",
       "url": "https://cloudblogs.microsoft.com/industry-blog/en-gb/financial-services/2022/07/25/how-data-and-ai-will-transform-contact-centres-for-financial-services/",
       "source": "Microsoft AI",
@@ -545,14 +553,6 @@
       "published": "Mon, 12 Jan 2026 11:30:00 GMT",
       "summary": "<p><a href=\"https://www.anthropic.com/\">Anthropic</a> released <a href=\"https://claude.com/blog/cowork-research-preview\">Cowork</a> on Monday, a new AI agent capability that extends the power of its w",
       "tier": "b"
-    },
-    {
-      "title": "From games to biology and beyond: 10 years of AlphaGo\u2019s impact",
-      "url": "https://deepmind.google/blog/10-years-of-alphago/",
-      "source": "DeepMind Blog",
-      "published": "Mon, 09 Mar 2026 13:52:36 +0000",
-      "summary": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI.",
-      "tier": "a"
     },
     {
       "title": "The creator of Claude Code just revealed his workflow, and developers are losing their minds",
@@ -619,6 +619,30 @@
       "tier": "b"
     },
     {
+      "title": "Show HN: Another experiment with an Erdos problem and LLMs",
+      "url": "https://news.ycombinator.com/item?id=47917671",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-27T04:22:21",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "DeepSeek drops input cache price to 1/10th",
+      "url": "https://xcancel.com/deepseek_ai/status/2048440764368347611",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-26T22:14:12",
+      "summary": "",
+      "tier": "c"
+    },
+    {
+      "title": "DeepSeek's new models are so efficient they'll run on a toaster by which we mean",
+      "url": "https://www.theregister.com/2026/04/24/deepseek_v4/",
+      "source": "HN - DeepSeek",
+      "published": "2026-04-26T20:52:45",
+      "summary": "",
+      "tier": "c"
+    },
+    {
       "title": "DeepSeek V4 plays Go on a 9x9 board",
       "url": "https://chat.deepseek.com/share/95z1fr6y7rj4q5nmd0",
       "source": "HN - DeepSeek",
@@ -627,34 +651,10 @@
       "tier": "c"
     },
     {
-      "title": "Show HN: UseMoney AI: AI Copilot for Retail Investors of India",
-      "url": "https://news.ycombinator.com/item?id=47909866",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-26T12:42:42",
-      "summary": "",
-      "tier": "c"
-    },
-    {
       "title": "Ask HN: I think we need Trustpilot for GitHub users, don't we?",
       "url": "https://news.ycombinator.com/item?id=47908718",
       "source": "HN - xAI Grok",
       "published": "2026-04-26T09:09:34",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles",
-      "url": "https://www.lmsys.org/blog/2026-04-25-deepseek-v4/",
-      "source": "HN - DeepSeek",
-      "published": "2026-04-25T23:44:05",
-      "summary": "",
-      "tier": "c"
-    },
-    {
-      "title": "Show HN: LawVM, a compiler for replaying amendment acts into point-in-time law",
-      "url": "https://lawvm.org/",
-      "source": "HN - xAI Grok",
-      "published": "2026-04-25T21:38:06",
       "summary": "",
       "tier": "c"
     },
